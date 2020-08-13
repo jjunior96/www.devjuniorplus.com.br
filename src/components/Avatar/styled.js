@@ -6,4 +6,5 @@ export const AvatarWrapper = styled(Img)`
   height: 3.75rem;
   width: 3.75rem;
   margin: auto;
+  margin-right: 1.6rem;
 `;

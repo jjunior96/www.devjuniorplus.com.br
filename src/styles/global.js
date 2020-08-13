@@ -44,8 +44,9 @@ const GlobalStyles = createGlobalStyle`
     --background-layout-main: #e1e5ee;
 
     /* Profile */
-    --color-profile-primary: #767b91;
-    --color-profile-hover: #3e466e;
+    --background-profile-primary: #2a324b;
+    --color-profile-primary: #e1e5ee;
+    --color-profile-hover: #767b91;
 
   }
 
