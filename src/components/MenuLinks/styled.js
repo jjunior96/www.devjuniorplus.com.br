@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-export const MenuLinksWrapper = styled.nav`
-  margin-top: 3.2rem;
-`;
+export const MenuLinksWrapper = styled.nav``;
 
 export const MenuLinksList = styled.ul`
   font-size: 1.6rem;
