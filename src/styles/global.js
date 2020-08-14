@@ -48,7 +48,7 @@ const GlobalStyles = createGlobalStyle`
     --background-layout-main: #383A47;
 
     /* Profile */
-    --background-profile-primary: #3d3f4da6;
+    --background-profile-primary: #46495A;
     --color-profile-primary: #e1e5ee;
     --color-profile-hover: #767b91;
 
