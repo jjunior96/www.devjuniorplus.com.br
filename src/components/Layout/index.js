@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// import Header from '../Header';
-import Profile from '../Profile';
+import Sidebar from '../Sidebar';
 
 import GlobalStyles from '../../styles/global';
 
@@ -12,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-      <Profile />
+      <Sidebar />
       <S.LayoutMain>{children}</S.LayoutMain>
     </S.LayoutWrapper>
   );

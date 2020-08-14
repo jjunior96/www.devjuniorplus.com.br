@@ -8,7 +8,7 @@ export const LayoutWrapper = styled.section`
 
 export const LayoutMain = styled.main`
   /* Menos o altura do Profile */
-  min-height: calc(100vh - 6.8rem);
+  min-height: 100vh;
   max-width: 1200px;
   font-size: 1.6rem;
   margin: 0 auto;
