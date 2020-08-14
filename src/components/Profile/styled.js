@@ -2,30 +2,34 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 export const ProfileWrapper = styled.section`
-  color: var(--color-profile-primary);
+  color: var(--color-link-primary);
   display: flex;
-  width: 100%;
-  background-color: var(--background-profile-primary);
-  height: 6.8rem;
-`;
-
-export const ProfileMax = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1200px;
+  flex-direction: column;
 `;
 
 export const ProfileLink = styled(Link)`
-  display: flex;
-  align-items: center;
-  color: var(--color-profile-primary);
+  color: var(--color-link-primary);
   text-decoration: none;
   transition: color 0.3s;
-  margin-left: 1.6rem;
-  font-size: 2rem;
 
   &:hover {
-    color: var(--color-profile-hover);
+    color: var(--color-link-hover);
   }
+`;
+
+export const ProfileAuthor = styled.h1`
+  font-size: 2.4rem;
+  margin: 0.5rem auto 1.5rem;
+`;
+
+export const ProfilePosition = styled.small`
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 300;
+`;
+
+export const ProfileDescription = styled.p`
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.4;
 `;
