@@ -39,15 +39,22 @@ const GlobalStyles = createGlobalStyle`
     #2a324b
     #fff
     */
+    /* 
+      #383A47
+      #3D3F4D
+    */
 
     /* Layout */
-    --background-layout-main: #e1e5ee;
+    --background-layout-main: #383A47;
 
     /* Profile */
-    --background-profile-primary: #2a324b;
+    --background-profile-primary: #3d3f4da6;
     --color-profile-primary: #e1e5ee;
     --color-profile-hover: #767b91;
 
+    /* Menu Links */
+    --color-link-primary: #e1e5ee;
+    --color-link-hover: #767b91;
   }
 
   /* HTML5 display-role reset for older browsers */

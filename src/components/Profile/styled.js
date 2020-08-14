@@ -11,6 +11,7 @@ export const ProfileWrapper = styled.section`
 
 export const ProfileMax = styled.nav`
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
 `;
