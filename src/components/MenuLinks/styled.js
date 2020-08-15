@@ -9,14 +9,18 @@ export const MenuLinksList = styled.ul`
 `;
 
 export const MenuLinksItem = styled.li`
-  padding: 0.5rem 0;
+  padding: 1rem 0;
+  /* font-weight: 100; */
+
   .active {
     color: var(--color-link-hover);
+    /* font-weight: 600; */
   }
 `;
 
 export const MenuLinksLink = styled(Link)`
   color: var(--color-link-primary);
+  letter-spacing: 3px;
   text-decoration: none;
   transition: color 0.5s;
   &:hover {

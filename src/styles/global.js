@@ -51,10 +51,15 @@ const GlobalStyles = createGlobalStyle`
     --background-profile-primary: #46495A;
     --color-profile-primary: #e1e5ee;
     --color-profile-hover: #767b91;
+    
+    /* line PostItem */
+    --color-line-postitem: #4E5166;
 
     /* Menu Links */
     --color-link-primary: #e1e5ee;
-    --color-link-hover: #767b91;
+    --color-link-hover: #ff7f50;
+    /* --color-link-hover: #767b91; */
+    /* --color-link-hover: #83A7F7; */
   }
 
   /* HTML5 display-role reset for older browsers */

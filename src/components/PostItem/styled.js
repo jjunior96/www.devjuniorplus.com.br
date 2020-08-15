@@ -8,13 +8,13 @@ export const PostItemLink = styled(Link)`
   transition: color 0.3s;
 
   &:hover {
-    color: #888;
+    color: var(--color-link-hover);
   }
 `;
 
 export const PostItemWrapper = styled.section`
   align-items: center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--color-line-postitem);
   display: flex;
   padding: 2rem 3rem;
   width: 100%;
