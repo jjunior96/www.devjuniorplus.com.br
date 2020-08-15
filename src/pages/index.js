@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
@@ -12,6 +13,9 @@ const IndexPage = () => {
       allMarkdownRemark {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               background
               category
@@ -32,18 +36,23 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       {postList.map(
-        ({
-          node: {
-            frontmatter: { background, category, date, description, title },
-            timeToRead,
+        (
+          {
+            node: {
+              frontmatter: { background, category, date, description, title },
+              timeToRead,
+              fields: { slug },
+            },
           },
-        }) => (
+          i
+        ) => (
           <PostItem
-            slug="/about/"
+            key={i}
+            slug={slug}
             background={background}
             category={category}
             date={date}
-            timeToRead={timeToRead}
+            timeToRead={toString(timeToRead)}
             title={title}
             description={description}
           />
