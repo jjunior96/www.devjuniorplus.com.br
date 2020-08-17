@@ -2,7 +2,7 @@
 date: " 2020-08-17 05:26:38"
 title: Testando o primeiro post
 description: Teste
-thumbnail: assets/img/1.jpg
+thumbnail: assets/img/ocean.jpg
 category: css
 background: "#2DA0C3"
 ---
