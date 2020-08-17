@@ -1,11 +1,3 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
-// You can delete this file if you're not using it
-
 const path = require('path');
 
 const { createFilePath } = require(`gatsby-source-filesystem`);
@@ -52,19 +44,37 @@ exports.createPages = ({ graphql, actions }) => {
             }
             timeToRead
           }
+          next {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
+          previous {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
         }
       }
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges;
 
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
         // Verificar esse caminho depois
         component: path.resolve('./src/templates/blog-post.js'),
         context: {
           slug: node.fields.slug,
+          previousPost: next,
+          nextPost: previous,
         },
       });
     });
