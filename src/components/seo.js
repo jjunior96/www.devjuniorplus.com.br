@@ -19,7 +19,7 @@ function SEO({ description, lang, meta, title, image }) {
             title
             description
             author
-            siteURL
+            siteUrl
           }
         }
       }
@@ -27,7 +27,7 @@ function SEO({ description, lang, meta, title, image }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const url = site.siteMetadata.siteURL;
+  const url = site.siteMetadata.siteUrl;
   const ogImage = `${url}${image || '/assets/image/cover.jpg'}`;
 
   return (
