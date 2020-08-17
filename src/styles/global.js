@@ -60,6 +60,11 @@ const GlobalStyles = createGlobalStyle`
     --color-link-hover: #ff7f50;
     /* --color-link-hover: #767b91; */
     /* --color-link-hover: #83A7F7; */
+
+    /* Post color */
+    --post-color: #fff;
+    --hightlight-quote: #ff7f50;
+    --color-line-borders: #4E5166;
   }
 
   /* HTML5 display-role reset for older browsers */
