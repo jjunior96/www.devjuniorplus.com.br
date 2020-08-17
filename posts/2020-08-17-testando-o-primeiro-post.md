@@ -1,7 +1,7 @@
 ---
 date: " 2020-08-17 05:26:38"
 title: Agora vai
-description: testando
+description: testando de novo
 thumbnail: assets/img/ocean.jpg
 category: css
 background: "#2DA0C3"
