@@ -4,6 +4,7 @@ module.exports = {
     position: `Javacript Developer`,
     description: `Escrevo sobre código e livros.`,
     author: `jjunior`,
+    siteURL: `https://alvesjunior.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
