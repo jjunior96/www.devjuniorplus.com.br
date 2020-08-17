@@ -1,37 +1,16 @@
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-array-index-key */
+/* eslint-disable react/no-danger */
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
 import PostItem from '../components/PostItem';
 import SEO from '../components/seo';
 
-const IndexPage = () => {
-  const { allMarkdownRemark } = useStaticQuery(graphql`
-    query PostList {
-      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              background
-              category
-              description
-              title
-              date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
-            }
-            timeToRead
-          }
-        }
-      }
-    }
-  `);
-
-  const postList = allMarkdownRemark.edges;
-
+const BlogList = props => {
+  const postList = props.data.allMarkdownRemark.edges;
   return (
     <Layout>
       <SEO title="Home" />
@@ -44,10 +23,10 @@ const IndexPage = () => {
               fields: { slug },
             },
           },
-          i
+          index
         ) => (
           <PostItem
-            key={i}
+            key={index}
             slug={slug}
             background={background}
             category={category}
@@ -65,4 +44,30 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export const query = graphql`
+  query PostList($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            background
+            category
+            description
+            title
+            date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+          }
+          timeToRead
+        }
+      }
+    }
+  }
+`;
+
+export default BlogList;
