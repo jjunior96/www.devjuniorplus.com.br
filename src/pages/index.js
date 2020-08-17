@@ -52,7 +52,7 @@ const IndexPage = () => {
             background={background}
             category={category}
             date={date}
-            timeToRead={toString(timeToRead)}
+            timeToRead={timeToRead}
             title={title}
             description={description}
           />
