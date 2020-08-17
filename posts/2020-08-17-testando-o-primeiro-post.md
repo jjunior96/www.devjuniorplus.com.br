@@ -1,7 +1,7 @@
 ---
 date: " 2020-08-17 05:26:38"
-title: Testando o primeiro post
-description: Teste
+title: Agora vai
+description: testando
 thumbnail: assets/img/ocean.jpg
 category: css
 background: "#2DA0C3"
