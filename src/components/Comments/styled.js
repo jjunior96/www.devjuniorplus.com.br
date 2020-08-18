@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const CommentsWrapper = styled.section`
   margin: auto;
@@ -8,11 +9,17 @@ export const CommentsWrapper = styled.section`
   iframe[src*='ads-iframe'] {
     display: none;
   }
+
   #disqus_thread {
     a {
       color: var(--color-link-primary) !important;
     }
   }
+
+  ${media.lessThan('large')`
+    padding: 4rem 1.8rem 0;
+    max-width: 100%;
+  `}
 `;
 
 export const CommnentsTitle = styled.h2`
@@ -20,4 +27,8 @@ export const CommnentsTitle = styled.h2`
   font-size: 2.4rem;
   font-weight: 700;
   padding-bottom: 0;
+
+  ${media.lessThan('large')`
+    font-size: 1.8rem;
+  `}
 `;
