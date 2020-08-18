@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 import { Link } from 'gatsby';
 
-export const RecommnendedWrapper = styled.section`
+export const RecommendedWrapper = styled.section`
   border-bottom: 1px solid var(--color-line-borders);
   border-top: 1px solid var(--color-line-borders);
   background: var(--background-layout-main);
@@ -15,7 +15,7 @@ export const RecommnendedWrapper = styled.section`
   `}
 `;
 
-export const RecommnendedLink = styled(Link)`
+export const RecommendedLink = styled(Link)`
   display: flex;
   align-items: center;
   background: var(--background-layout-main);

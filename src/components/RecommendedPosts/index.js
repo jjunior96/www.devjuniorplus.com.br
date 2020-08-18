@@ -5,19 +5,19 @@ import propTypes from 'prop-types';
 import * as S from './styled';
 
 const RecommendedPosts = ({ next, previous }) => (
-  <S.RecommnendedWrapper>
+  <S.RecommendedWrapper>
     {previous && (
-      <S.RecommnendedLink to={previous.fields.slug} className="previous">
+      <S.RecommendedLink to={previous.fields.slug} className="previous">
         {previous.frontmatter.title}
-      </S.RecommnendedLink>
+      </S.RecommendedLink>
     )}
 
     {next && (
-      <S.RecommnendedLink to={next.fields.slug} className="next">
+      <S.RecommendedLink to={next.fields.slug} className="next">
         {next.frontmatter.title}
-      </S.RecommnendedLink>
+      </S.RecommendedLink>
     )}
-  </S.RecommnendedWrapper>
+  </S.RecommendedWrapper>
 );
 
 RecommendedPosts.propTypes = {
