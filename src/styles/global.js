@@ -64,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* Layout */
     --background-layout-main: #383A47;
+    --background-layout-mobile: #383a47f6;
 
     /* Profile */
     --background-profile-primary: #46495A;

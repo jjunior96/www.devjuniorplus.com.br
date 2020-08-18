@@ -11,13 +11,13 @@ export const LayoutWrapper = styled.section`
 
 export const LayoutMain = styled.main`
   background: var(--background-layout-main);
-  transition: background, color 0.5s;
+  transition: background-color, color 0.5s;
   min-height: 100vh;
   font-size: 1.6rem;
   padding-left: 28rem;
   width: 100%;
 
   ${media.lessThan('large')`
-    padding: 5rem 0 3.2rem 0;
+    padding: 7rem 0 3.2rem;
   `}
 `;

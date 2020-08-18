@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 import { Link } from 'gatsby';
 
 export const RecommnendedWrapper = styled.section`
@@ -6,6 +7,12 @@ export const RecommnendedWrapper = styled.section`
   border-top: 1px solid var(--color-line-borders);
   background: var(--background-layout-main);
   display: flex;
+
+  ${media.lessThan('large')`
+    /* padding: 2.4rem 1.6rem; */
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+  `}
 `;
 
 export const RecommnendedLink = styled(Link)`
@@ -15,7 +22,7 @@ export const RecommnendedLink = styled(Link)`
   color: var(--color-link-primary);
   padding: 3rem;
   text-decoration: none;
-  transition: background 0.5s;
+  transition: background-color 0.5s;
   width: 50%;
 
   &:hover {

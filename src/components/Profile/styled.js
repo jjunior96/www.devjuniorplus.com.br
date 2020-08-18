@@ -6,6 +6,14 @@ export const ProfileWrapper = styled.section`
   color: var(--color-link-primary);
   display: flex;
   flex-direction: column;
+
+  ${media.lessThan('large')`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+  `}
 `;
 
 export const ProfileLink = styled(Link)`
@@ -15,7 +23,6 @@ export const ProfileLink = styled(Link)`
 
   ${media.lessThan('large')`
     display: flex;
-    text-align: left;
   `}
 
   &:hover {
@@ -25,11 +32,13 @@ export const ProfileLink = styled(Link)`
 
 export const ProfileAuthor = styled.h1`
   font-size: 2.4rem;
-  margin: 0.5rem auto 1.5rem;
+  /* margin: 0.5rem auto 1.5rem; */
 
   ${media.lessThan('large')`
-    font-size: 1.6rem;
-    margin: 0 0 0 1rem;
+    font-size: 1.8rem;
+    /* margin: 0 0 0 1rem; */
+    font-weight: 500;
+    letter-spacing: 4px;
   `}
 `;
 
@@ -37,14 +46,16 @@ export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.8rem;
   font-weight: 300;
+  margin-top: 0.3rem;
 
   ${media.lessThan('large')`
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 0.6rem;
   `}
 `;
 
 export const ProfileDescription = styled.p`
+  margin-top: 1rem;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.4;
