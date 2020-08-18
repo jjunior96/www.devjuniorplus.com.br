@@ -33,8 +33,8 @@ export const PostDescription = styled.h2`
   padding: 0 1.4rem;
 
   ${media.lessThan('large')`
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     padding: 0 1.6rem;
   `}
 `;
@@ -69,10 +69,10 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--post-color);
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 300;
-    line-height: 2.8rem;
-    letter-spacing: 0.08rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
     padding: 0 1.4rem;
     
     ${media.lessThan('large')`
