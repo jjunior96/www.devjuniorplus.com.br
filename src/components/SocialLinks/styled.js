@@ -25,12 +25,19 @@ export const SocialLinksLink = styled.a`
   transition: color 0.3s;
 
   &:hover {
-    color: var(--color-link-hover);
+    background-color: var(--color-link-hover);
   }
 `;
 
 export const IconWrapper = styled.div`
-  /* fill: #bbb; */
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: var(--color-link-hover);
+    color: var(--background-profile-primary);
+  }
 `;
