@@ -23,9 +23,7 @@ const BlogPost = ({ data, pageContext }) => {
       />
 
       <S.PostHeader>
-        <S.PostDate>
-          {post.frontmatter.date} • {post.frontmatter.timeToRead} min de leitura
-        </S.PostDate>
+        <S.PostDate>{post.frontmatter.date}</S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
