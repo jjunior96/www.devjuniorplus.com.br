@@ -29,7 +29,25 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
+
+/* pseudo-elemento que aplica estilos para partes do documento 
+** que foram selecionadas, tipo selecionar um texo 
+*/
+::selection {
+  background-color: #48dbfb60;
+}
+
+/* Barra de rolagem do navegador */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #46495A;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e1e5ee;
+}
 
   :root {
     /* 
