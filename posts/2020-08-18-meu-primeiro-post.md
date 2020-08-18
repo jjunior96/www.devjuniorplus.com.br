@@ -1,14 +1,28 @@
 ---
-date: 2019-02-10 05:54:23
-title: Hey
-description: Where you goin' with that gun of yours?
-category: CSS
+date: 2020-08-18 07:14:35
+title: Meu primeiro post
+description: Vou testar esse post agora
+image: /assets/images/cover.jpg
+category: css
 background: '#7159c1'
 ---
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
+# Vai dar certo dessa vez!
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Agora vai!
+
+```jsx
+<Pagination
+  isFirst={isFirst}
+  isLast={isLast}
+  currentPage={currentPage}
+  numPages={numPages}
+  prevPage={prevPage}
+  nextPage={nextPage}
+/>
+```
+
+![](/static/assets/images/wallpaper.jpg)
 
 Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec.
 
@@ -19,5 +33,3 @@ Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis met
 ### Cras semper consectetur elementum
 
 Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
-
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
