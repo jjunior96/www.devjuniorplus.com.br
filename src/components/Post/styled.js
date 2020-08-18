@@ -1,15 +1,17 @@
 /* eslint-disable no-undef */
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const PostHeader = styled.header`
   color: var(--post-color);
   margin: auto;
   max-width: 88rem;
   padding: 5rem 5rem 0;
-  /* ${media.lessThan('large')`
-    padding: 3rem 0 0;
+
+  ${media.lessThan('large')`
+    padding: 4rem 1.6rem 0;
     max-width: 100%;
-  `} */
+  `}
 `;
 
 export const PostTitle = styled.h1`
@@ -17,41 +19,45 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1.6rem auto;
-  /* ${media.lessThan('large')`
-    font-size: 2.8rem;
-    line-height: 1.1;
-    padding: 0 1rem;
-  `} */
+
+  ${media.lessThan('large')`
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding: 0 1.6rem;
+  `}
 `;
 
 export const PostDescription = styled.h2`
   font-size: 2.4rem;
   font-weight: 200;
   padding: 0 1.4rem;
-  /* ${media.lessThan('large')`
+
+  ${media.lessThan('large')`
     font-size: 1.6rem;
-    line-height: 1.3;
-    padding: 0 1rem;
-  `} */
+    line-height: 2rem;
+    padding: 0 1.6rem;
+  `}
 `;
 
 export const PostDate = styled.p`
   font-size: 1.6rem;
   font-weight: 100;
-  padding: 0 1.4rem;
-  /* ${media.lessThan('large')`
-    padding: 0 1rem;
-  `} */
+  padding: 0 1.6rem;
+
+  ${media.lessThan('large')`
+    padding: 0 1.6rem;
+  `}
 `;
 
 export const MainContent = styled.section`
   margin: auto;
   max-width: 88rem;
   padding: 2rem 5rem;
-  /* ${media.lessThan('large')`
-    padding: 2rem 0;
+  
+  ${media.lessThan('large')`
+    padding: 2.4rem 1.6rem;
     max-width: 100%;
-  `} */
+  `}
   p,
   h1,
   h2,
@@ -68,11 +74,12 @@ export const MainContent = styled.section`
     line-height: 2.8rem;
     letter-spacing: 0.08rem;
     padding: 0 1.4rem;
-    /* ${media.lessThan('large')`
-      padding: 0 1rem;
+    
+    ${media.lessThan('large')`
+      padding: 0 1.6rem;
       word-break: break-word;
-      margin-top: 0.2rem;
-    `} */
+      margin-top: 0.8rem;
+    `}
   }
   p {
     margin: 0 auto 2rem;
@@ -109,9 +116,10 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
-    /* ${media.lessThan('large')`
-      padding: 0 1rem;
-  `} */
+    
+    ${media.lessThan('large')`
+      padding: 0 1.6rem;
+  `}
   }
   blockquote {
     color: var(--postColor);
@@ -139,22 +147,23 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 3.2rem;
-    /* ${media.lessThan('large')`
-      font-size: 1.875rem;
-  `} */
+    ${media.lessThan('large')`
+      font-size: 2.4rem;
+  `}
   }
   h2 {
     font-size: 2.4rem;
     
-    /* ${media.lessThan('large')`
-      font-size: 1.375rem;
-  `} */
+    ${media.lessThan('large')`
+      font-size: 2rem;
+  `}
   }
   h3 {
     font-size: 2rem;
-    /* ${media.lessThan('large')`
-      font-size: 1.125rem;
-  `} */
+    
+    ${media.lessThan('large')`
+      font-size: 1.8rem;
+  `}
   }
   h4 {
     font-size: 1.6rem;

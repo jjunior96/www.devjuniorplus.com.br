@@ -17,5 +17,7 @@ export const SidebarWrapper = styled.aside`
     width: 100%
     height: auto;
     padding: 1.8rem 2.4rem;
+
+    z-index: 999;
   `}
 `;
