@@ -147,6 +147,7 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 3.2rem;
+    
     ${media.lessThan('large')`
       font-size: 2.4rem;
   `}
@@ -177,11 +178,14 @@ export const MainContent = styled.section`
   strong {
     font-weight: 700;
   }
+
   .gatsby-resp-image-background-image {
     z-index: 2;
     opacity: 1 !important;
   }
+
   .gatsby-resp-image-image {
+    width: 100%;
     box-shadow: none !important;
     transition: opacity 0.2s;
     &.lazyload {
@@ -192,12 +196,21 @@ export const MainContent = styled.section`
       z-index: 3;
     }
   }
+
+  /* Código */
   .gatsby-highlight {
-    padding: 0 2rem 2rem;
+    padding: 0 1.3rem 2rem;
+
+    ${media.lessThan('large')`
+      padding: 1rem 1.6rem;
+      max-width: 100%;
+    `}
   }
+
   .instagram-media {
     margin: 2rem auto !important;
   }
+
   a {
     border-bottom: 1px dashed var(--hightlight-quote);
     color: var(--hightlight-quote);

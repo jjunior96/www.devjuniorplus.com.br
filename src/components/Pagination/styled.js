@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const PaginationWrapper = styled.section`
   display: flex;
@@ -16,4 +17,9 @@ export const PaginationWrapper = styled.section`
       color: var(--color-link-hover);
     }
   }
+
+  ${media.lessThan('large')`
+    font-size: 1.2rem;
+    padding: 1.6rem;
+  `}
 `;

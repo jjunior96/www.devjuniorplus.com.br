@@ -17,7 +17,8 @@ export const SidebarWrapper = styled.aside`
     width: 100%
     height: auto;
     padding: 1.8rem 2.4rem;
-
+    background-color: var(--background-layout-mobile);
+    box-shadow: 0 0 20px #242630d2;
     z-index: 999;
   `}
 `;
