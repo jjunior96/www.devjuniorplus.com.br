@@ -2,9 +2,9 @@
 date: 2020-08-18 07:14:35
 title: Meu primeiro post
 description: Vou testar esse post agora
-image: /assets/images/cover.jpg
 category: css
 background: '#7159c1'
+image: /assets/images/cover.jpg
 ---
 
 # Vai dar certo dessa vez!
