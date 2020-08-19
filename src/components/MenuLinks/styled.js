@@ -25,7 +25,7 @@ export const MenuLinksItem = styled.li`
   .active {
     color: var(--color-link-hover);
     background-image: linear-gradient(to right, #383a47, #46495a);
-    /* border-left: 4px solid #fff; */
+    border-left: 3px solid #ff7f50;
   }
 `;
 

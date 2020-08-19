@@ -4,7 +4,9 @@ import * as S from './styled';
 
 const Footer = () => (
   <S.FooterWrapper>
-    <h1>Footer</h1>
+    <S.FooterEmail href="mailto:jjalves96@gmail.com">
+      Mande um email!
+    </S.FooterEmail>
   </S.FooterWrapper>
 );
 
