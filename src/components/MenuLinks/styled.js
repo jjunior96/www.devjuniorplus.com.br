@@ -3,6 +3,9 @@ import media from 'styled-media-query';
 import { Link } from 'gatsby';
 
 export const MenuLinksWrapper = styled.nav`
+  width: 100%;
+  margin-top: 1rem;
+
   ${media.lessThan('large')`
     display: none;
   `}
@@ -11,13 +14,18 @@ export const MenuLinksWrapper = styled.nav`
 export const MenuLinksList = styled.ul`
   font-size: 1.6rem;
   font-weight: 300;
+  width: 100%;
 `;
 
 export const MenuLinksItem = styled.li`
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
+  display: flex;
+  width: 100%;
 
   .active {
     color: var(--color-link-hover);
+    background-image: linear-gradient(to right, #383a47, #46495a);
+    /* border-left: 4px solid #fff; */
   }
 `;
 
@@ -26,8 +34,11 @@ export const MenuLinksLink = styled(Link)`
   letter-spacing: 3px;
   text-decoration: none;
   transition: color 0.5s;
+  width: 100%;
+  padding: 1.6rem 0;
 
   &:hover {
     color: var(--color-link-hover);
+    /* background-image: linear-gradient(to right, #383a47, #46495a); */
   }
 `;
