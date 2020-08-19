@@ -84,6 +84,10 @@ const GlobalStyles = createGlobalStyle`
     --post-color: #fff;
     --hightlight-quote: #ff7f50;
     --color-line-borders: #4E5166;
+
+    /* Social Links BG */
+    --background-social-links: #343643;
+
   }
 
   /* HTML5 display-role reset for older browsers */

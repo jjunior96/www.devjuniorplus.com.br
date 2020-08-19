@@ -17,7 +17,7 @@ export const CommentsWrapper = styled.section`
   }
 
   ${media.lessThan('large')`
-    padding: 4rem 1.8rem 0;
+    padding: 4rem 1.8rem 2rem;
     max-width: 100%;
   `}
 `;
