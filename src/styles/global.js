@@ -6,6 +6,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;300;400;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -87,6 +93,9 @@ const GlobalStyles = createGlobalStyle`
 
     /* Social Links BG */
     --background-social-links: #343643;
+
+    --font-title-main: 'Comfortaa', cursive;
+    --font-title-position: 'Montserrat', sans-serif;
 
   }
 

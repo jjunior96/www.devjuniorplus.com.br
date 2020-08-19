@@ -16,7 +16,7 @@ const links = [
 
   {
     label: 'Instagram',
-    url: 'https://www.instagram.com/junior.alves__/',
+    url: 'https://www.instagram.com/devjuniorplus/',
   },
 ];
 

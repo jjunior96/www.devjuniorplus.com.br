@@ -31,7 +31,11 @@ export const ProfileLink = styled(Link)`
 `;
 
 export const ProfileAuthor = styled.h1`
+  margin-top: 0.8rem;
   font-size: 2.4rem;
+  /* letter-spacing: 1px; */
+  font-family: var(--font-title-main);
+  font-weight: 700;
   /* margin: 0.5rem auto 1.5rem; */
 
   ${media.lessThan('large')`
@@ -44,13 +48,17 @@ export const ProfileAuthor = styled.h1`
 
 export const ProfilePosition = styled.small`
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 300;
   margin-top: 0.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 2px;
 
   ${media.lessThan('large')`
     font-size: 1rem;
     margin-top: 0.6rem;
+    letter-spacing: 4px;
   `}
 `;
 
