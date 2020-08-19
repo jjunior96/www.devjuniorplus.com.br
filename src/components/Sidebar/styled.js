@@ -22,3 +22,12 @@ export const SidebarWrapper = styled.aside`
     z-index: 999;
   `}
 `;
+
+export const SidebarFooter = styled.section`
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 4rem;
+  padding: 1rem 0;
+
+  border-bottom: 1px solid #ff7f50;
+`;
