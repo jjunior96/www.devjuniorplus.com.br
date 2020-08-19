@@ -2,7 +2,7 @@ backend:
   name: github
   repo: jjunior96/study-blog
   branch: master
-  site_domain: https://alvesjunior.netlify.app/
+  site_domain: alvesjunior.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/images'
