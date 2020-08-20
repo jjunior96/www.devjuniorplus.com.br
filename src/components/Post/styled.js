@@ -91,7 +91,10 @@ export const MainContent = styled.section`
   h5 {
     margin: 2.4rem auto 1.6rem;
   }
-  ul,
+  ul{
+    list-style: disc;
+  }
+
   ol {
     list-style: disc;
     padding-left: 2.5rem;
