@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://alvesjunior.netlify.app`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     // Precisa ser a primeira config do file-system

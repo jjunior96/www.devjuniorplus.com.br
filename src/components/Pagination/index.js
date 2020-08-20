@@ -1,7 +1,7 @@
 /* eslint-disable react/require-default-props */
 import React from 'react';
 import propTypes from 'prop-types';
-import { Link } from 'gatsby';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import * as S from './styled';
 
@@ -16,14 +16,35 @@ const Pagination = ({
   return (
     <S.PaginationWrapper>
       {/* Primeira pagina */}
-      {!isFirst && <Link to={prevPage}> ← Página anterior</Link>}
+      {!isFirst && (
+        <AniLink
+          to={prevPage}
+          cover
+          direction="left"
+          bg="#383A47"
+          duration={0.7}
+        >
+          {' '}
+          ← Página anterior
+        </AniLink>
+      )}
 
       <p>
         {currentPage} de {numPages}
       </p>
 
       {/* Ultima pagina */}
-      {!isLast && <Link to={nextPage}>Próxima página →</Link>}
+      {!isLast && (
+        <AniLink
+          to={nextPage}
+          cover
+          direction="right"
+          bg="#383A47"
+          duration={0.7}
+        >
+          Próxima página →
+        </AniLink>
+      )}
     </S.PaginationWrapper>
   );
 };
