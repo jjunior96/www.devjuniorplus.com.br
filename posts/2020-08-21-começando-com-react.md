@@ -51,7 +51,7 @@ Precisamos de mais uma ultima coisa antes de partir para o Javascript, importar 
 
 Por enquanto não vamos nos preocupar em entender os detalhes, apenas que o React é divido em várias "partes", o ReactDOM, por exemplo, é a parte responsável por manipular o DOM (Document Object Model).
 
-Pronto, agora temos tudo o que precisamos para começar a entender o React!
+# Pronto, agora temos tudo o que precisamos para começar a entender o React!
 
 No arquivo **script.js**, precisamos obter a **div#root** que criamos no nosso **index.html**, para isso podemos fazer:
 
