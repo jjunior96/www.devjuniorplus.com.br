@@ -6,6 +6,8 @@ image: assets/images/1.jpg
 category: react
 background: "#7b2cbf"
 ---
+![Apenas comece!](assets/images/1.jpg "Apenas comece!")
+
 # Introdução
 
 ## O objetivo desse post é entender os conceitos mais básicos do React.
@@ -110,13 +112,13 @@ Vamos no browser para entender o que aconteceu na prática:
 
 ![Browser, verificando o elemento](assets/images/imagem3.png "Browser, verificando o elemento")
 
-Massa né?
+Massa né?<br/>
 
 > Dica: se você utiliza o VS Code para escrever seus códigos, instale a extensão **Live Server**, assim, basta ir no arquivo **index.htm**l e clicar com o botão direito do mouse, e ir em "Open with Live Server". O massa é que, sempre que você salva qualquer arquivo dentro desse projeto, ele faz um reload automático!
 >
 > ![Extensao Live Server VS Code](assets/images/imagem4.png "Extensao Live Server VS Code")
 
-
+# Conclusão
 
 Nesse post aprendemos o funcionamento básico do React.
 
