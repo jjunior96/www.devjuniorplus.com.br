@@ -27,17 +27,17 @@ const root = document.getElementById("root");
 ReactDOM.render(<h1 id='title'>Hello World</h1>, root);
 ```
 
-O código acima é um exemplo de JSX, a segunda linha, fazemos um chamada ao render do ReactDOM, **passando um elemento HTML diretamente**.<br/>
+O código acima é um exemplo de JSX, a segunda linha, fazemos um chamada ao render do ReactDOM, **passando um elemento HTML diretamente**.<br/><br/>
 
 # Hein?! Como assim?! HTML dentro do Javascript?
 
 Então... Na verdade isso não é HTML, é o **JSX**. (Vamos ver na prática porque não é HTML, calma ae.)
 
-É a sintaxe HTML, mas dentro do Javascript com todos os poderes que ele nos permite!<br/>
+É a sintaxe HTML, mas dentro do Javascript com todos os poderes que ele nos permite!<br/><br/>
 
 # Vamos escrever e ver na prática
 
-Vamos usar o arquivo **index.html** do último artigo (**<u>confere aqui</u>**), vamos apenas utilizar o Javascript dentro da tag **script**, assim: 
+Vamos usar o arquivo **index.html** do último artigo, vamos apenas utilizar o Javascript dentro da tag **script**, assim: 
 
 ```html
 <!DOCTYPE html>
@@ -71,11 +71,13 @@ Vamos usar o arquivo **index.html** do último artigo (**<u>confere aqui</u>**),
 </html>
 ```
 
+<br/><br/>
+
 Se a gente tentar executar esse código agora, nada será mostrado no browser. **POR QUÊ?** **DEU ERRO?**
 
 Não, é por que os browsers não "entendem" JSX, daí precisamos de alguém que posso "traduzir" o JSX para Javascript que o browser entenda.
 
-Chamamos esse "tradutor" de **transpiler** (tipo especial de **compilador**) de Javascript. O mais utilizado atualmente é o [Babel.js](http://babeljs.io/).
+Chamamos esse "tradutor" de **transpiler** (tipo especial de **compilador**) de Javascript. O mais utilizado atualmente é o [Babel.js](http://babeljs.io/).<br/><br/>
 
 Agora precisamos importa-lo para poder testar nosso código no browser:
 
@@ -83,6 +85,8 @@ Agora precisamos importa-lo para poder testar nosso código no browser:
 <!-- Importa o Babel -->
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 ```
+
+<br/>
 
 Uma última coisa antes de testar: precisamos também informar na tag script, que vamos utilizar o Babel.js:
 
@@ -104,11 +108,13 @@ Agora escrevemos o seguinte código:
 
 ![Exemplo dentro do site do Babel.js](assets/images/img2.png "Exemplo dentro do site do Babel.js")
 
-<br/> # O que quer dizer esse código?
+<br/> 
+
+# O que quer dizer esse código?
 
 É simplesmente uma variável recebendo uma função anônima. Mas o importante aqui, é saber que **funções anônimas foram inseridas na versão ES6 do Javascript** e alguns browsers "entendem" somente até a versão ES5, daí a necessidade de utilizarmos o Babej.js. 
 
-Ele vai "traduzir" o nosso JSX para uma forma que o browser "entenda". (ES significa EcmaScript, em outro post eu explico sobre as diferentes versões do JS).<br/>
+Ele vai "traduzir" o nosso JSX para uma forma que o browser "entenda". (ES significa EcmaScript, em outro post eu explico sobre as diferentes versões do JS).<br/><br/>
 
 # Melhorando nosso exemplo
 
@@ -120,13 +126,13 @@ Agora, vamos ver o que acontece se copiarmos nosso script para dentro do site do
 
 <br/>Veja que ele fez exatamente o que tínhamos feito no [último post](https://alvesjunior.netlify.app/come%C3%A7ando-com-react/), criou o elemento h1 através do React.createElement.<br/>
 
-Muito massa né?<br/>
+Muito massa né?<br/><br/>
 
 # Conclusão
 
 Demos mais um passo rumo ao React, entendemos na prática o que é JSX e precisamos do Babel.js.
 
-E agora sim, no próximo post, vamos começar finalmente a criar nosso primeiro projeto com o **create-react-app**.
+E agora sim, no próximo post, vamos começar finalmente a criar nosso primeiro projeto com o **create-react-app**.<br/>
 
 Eu vou ficando por aqui.
 
