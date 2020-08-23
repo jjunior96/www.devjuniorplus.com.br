@@ -17,26 +17,7 @@ const AboutPage = () => {
       <S.MainContent>
         <h1>Sobre mim</h1>
         <p>
-          Meu nome é Jorge Alves de Oliveira Junior, nasci em Petrópolis/RJ e
-          sou instrutor na{' '}
-          <a
-            href="https://www.udemy.com/user/willian-justen-de-vasconcellos/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Udemy
-          </a>
-          , além de ser um nômade digital e tirar{' '}
-          <a
-            href="https://unsplash.com/@willianjusten"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            algumas fotos
-          </a>{' '}
-          por onde vou.
-        </p>
-
+          Meu nome é Jorge Alves de Oliveira Junior, e sou apaixonado por tecnologia!
         <p>
           Já passei por empresas como{' '}
           <a
