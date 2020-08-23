@@ -33,14 +33,12 @@ export const ProfileLink = styled(AniLink)`
 export const ProfileAuthor = styled.h1`
   margin-top: 0.8rem;
   font-size: 2.4rem;
-  /* letter-spacing: 1px; */
+  letter-spacing: 2px;
   font-family: var(--font-title-main);
   font-weight: 700;
-  /* margin: 0.5rem auto 1.5rem; */
 
   ${media.lessThan('large')`
     font-size: 1.8rem;
-    /* margin: 0 0 0 1rem; */
     font-weight: 500;
     letter-spacing: 4px;
   `}
@@ -50,9 +48,10 @@ export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.6rem;
   font-weight: 300;
-  margin-top: 0.3rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 0.5rem;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: var(--font-title-position);
   letter-spacing: 2px;
 
   ${media.lessThan('large')`
@@ -63,7 +62,7 @@ export const ProfilePosition = styled.small`
 `;
 
 export const ProfileDescription = styled.p`
-  margin-top: 1rem;
+  margin-top: 1.6rem;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.4;
