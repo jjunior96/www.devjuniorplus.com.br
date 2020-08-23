@@ -1,8 +1,12 @@
+/* eslint-disable import/no-duplicates */
 /* eslint-disable no-undef */
 import React from 'react';
 
 import { Home } from 'styled-icons/remix-fill/';
-import { UpArrow } from 'styled-icons/boxicons-solid';
+// import { UpArrow } from 'styled-icons/boxicons-solid';
+import { UpArrowAlt } from 'styled-icons/boxicons-regular';
+// import { CaretUp } from 'styled-icons/boxicons-regular';
+
 import { Search } from 'styled-icons/boxicons-regular';
 
 import * as GA from './trackers';
@@ -54,7 +58,7 @@ const MenuBar = () => {
               window.scroll({ top: 0, behavior: 'smooth' });
             }}
           >
-            <UpArrow />
+            <UpArrowAlt />
           </S.MenuBarLink>
         </S.MenuBarItem>
       </S.MenuBarList>

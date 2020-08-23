@@ -28,13 +28,14 @@ export const MenuBarList = styled.ul`
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 0.6rem 0;
   `}
 `;
 
 export const MenuBarItem = styled.li`
   ${media.lessThan('large')`
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 2rem;
+    height: 2rem;
 
     .active {
       color: var(--color-link-hover);
