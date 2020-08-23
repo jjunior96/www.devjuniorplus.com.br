@@ -27,23 +27,6 @@ const Search = () => (
       <Hits hitComponent={Hit} />
     </InstantSearch>
   </S.SearchWrapper>
-  // <S.SearchWrapper>
-  //   <InstantSearch
-  //     appId={algolia.appId}
-  //     apiKey={algolia.searchOnlyApiKey}
-  //     indexName={algolia.indexName}
-  //   >
-  //     <SearchBox autoFocus translations={{ placeholder: 'Pesquisar...' }} />
-  //     <Stats
-  //       translations={{
-  //         stats(nbHits, timeSpentMs) {
-  //           return `${nbHits} resultados encontrados em ${timeSpentMs}ms`;
-  //         },
-  //       }}
-  //     />
-  //     <Hits hitComponent={Hit} />
-  //   </InstantSearch>
-  // </S.SearchWrapper>
 );
 
 export default Search;
