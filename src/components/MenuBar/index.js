@@ -14,7 +14,7 @@ const MenuBar = () => {
       <S.MenuBarList>
         <S.MenuBarItem>
           <S.MenuBarLink
-            to="#"
+            to="/search"
             cover
             direction="top"
             bg="#383A47"

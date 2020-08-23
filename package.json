@@ -2,9 +2,10 @@
   "name": "my-blog",
   "private": true,
   "description": "A blog about code and books.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Junior Alves <jjalves96e@gmail.com>",
   "dependencies": {
+    "algoliasearch": "^4.4.0",
     "dotenv": "^8.1.0",
     "gatsby": "^2.24.47",
     "gatsby-image": "^2.2.8",
@@ -37,7 +38,7 @@
     "react-dom": "^16.8.6",
     "react-ga": "^3.1.2",
     "react-helmet": "^5.2.1",
-    "react-instantsearch-dom": "^5.7.0",
+    "react-instantsearch-dom": "^6.7.0",
     "styled-components": "^4.3.2",
     "styled-icons": "^8.3.0",
     "styled-media-query": "^2.1.2"
