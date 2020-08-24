@@ -7,15 +7,14 @@ export const SocialLinksWrapper = styled.nav`
   width: 100%;
 
   ${media.lessThan('large')`
-    display: none;
-    /* position: fixed;
-    margin: 0;
-    margin-left: -2.6rem;
+    /* display: none; */
+    /* position: fixed; */
     padding: 1.2rem 2.8rem;
+    margin: 0 0 3rem;
     bottom: 0;
     width: 100vw;
-    z-index: 999;
-    background-color: var(--background-social-links) */
+    /* z-index: 999; */
+    /* background-color: var(--background-social-links); */
   `}
 `;
 
