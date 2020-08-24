@@ -1,83 +1,90 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import SocialLinks from '../components/SocialLinks';
 import SEO from '../components/seo';
-// import SocialLinks from '../components/SocialLinks';
 
-// import * as S from '../components/Post/styled';
+import Image from '../images/darth-vader.jpg';
+import Image1 from '../images/kratos.jpg';
 
-const AboutPage = () => {
-  return (
-    <Layout>
-      <SEO
-        title="Sobre mim"
-        description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
-      />
-      {/*  
-      <S.MainContent>
-        <h1>Sobre mim</h1>
-        <p>
-          Meu nome é Jorge Alves de Oliveira Junior, e sou apaixonado por tecnologia!
-        <p>
-          Já passei por empresas como{' '}
-          <a
-            href="http://www.toptal.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Toptal
-          </a>
-          ,{' '}
-          <a
-            href="http://www.hugeinc.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Huge
-          </a>
-          ,{' '}
-          <a
-            href="http://www.globo.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Globo.com
-          </a>
-          ,{' '}
-          <a
-            href="https://queremos.com.br"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Queremos
-          </a>{' '}
-          e outras mais. Cursei Tecnologia da Informação na Faeterj-Petrópolis
-          no ano de 2014, mas curiosamente, essa não foi minha primeira
-          faculdade, eu também fiz <strong>Química Industrial</strong> na Uff.
-          Sim, você leu certo, eu realmente fiz Química… E por que eu trabalho
-          com web agora? Ah… porque web é incrível, a facilidade em aprender
-          cada dia mais e ainda poder ajudar um grande número de pessoas me
-          deixa feliz e realizado todos os dias.
-        </p>
+import { MainContent } from '../components/Post/styled';
 
-        <p>
-          Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre,
-          gosto de ensinar meus amigos sobre alguma coisa que aprendi, acho que
-          por isso nasceu esse blog.
-        </p>
+const AboutPage = () => (
+  <Layout>
+    <SEO
+      title="Sobre mim"
+      description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
+    />
+    <MainContent>
+      <img src={Image} alt="Darth Vader" />
 
-        <h2>Contato</h2>
+      <h1>Sobre mim</h1>
 
-        <p>
-          Você pode entrar em contato comigo através de qualquer uma das minhas
-          redes sociais.
-        </p>
+      <p>
+        <strong>Primeiramente, agradeço por estar aqui.</strong>
+      </p>
 
-        <SocialLinks />
-      </S.MainContent>
-        */}
-    </Layout>
-  );
-};
+      <p>
+        Sou apaixonado por Frontend, toda a parte gráfica da aplicação,
+        trabalhar com fontes, cores, interatividade... Passo horas trabalhando
+        com tudo isso sem ver o tempo passar.
+      </p>
+
+      <p>
+        Conheci programação aos 15 anos, no curso técnico que era integrado ao
+        Ensino Médio, onde tive o contato com HTML, CSS e Javascript.
+      </p>
+
+      <p>
+        Fiz alguns cursos específicos sobre Gatsby, Javascript ES6+, GraphQL,
+        mas na maior parte do tempo, estou lendo documentações e tentando
+        aprender algo novo. Atualmente estou focado em dominar o React.
+      </p>
+
+      <p>
+        Gosto de trabalhar com outras pessoas, aprender coisas novas, ensinar
+        coisas novas (minha forma preferida de aprender, por isso decidir criar
+        um blog, para compartilhar o que estou estudando). Gosto de ler no
+        Kindle. Sempre que não estou codando, estou lendo algo relacionado a
+        desenvolvimento, aprendendo novos conceitos.
+      </p>
+
+      <p>
+        Nas horas vagas, além de ler, gosto de desenhar. Desenho desde criança,
+        dediquei muitas horas de minha vida aprendendo desenho. Em 2015 adquiri
+        um mesa digitalizadora (era meu sonho) e comecei a estudar pintura
+        digital.
+      </p>
+
+      <p>
+        Tenho alguns desenhos no{' '}
+        <a
+          href="https://www.artstation.com/jjunior_art"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Artstation
+        </a>
+        , e no{' '}
+        <a
+          href="https://www.deviantart.com/jjunior96"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Deviantart
+        </a>
+        .
+      </p>
+      <img src={Image1} alt="Kratos" />
+
+      <h2>Contato</h2>
+      <p>
+        Você pode entrar em contato comigo através de qualquer uma das minhas
+        redes sociais:
+      </p>
+    </MainContent>
+    <SocialLinks />
+  </Layout>
+);
 
 export default AboutPage;
