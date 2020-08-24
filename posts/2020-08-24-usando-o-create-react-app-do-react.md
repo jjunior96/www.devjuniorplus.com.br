@@ -26,7 +26,7 @@ Comando:
 npx create-react-app meu-app
 ```
 
-\*Esse comando irá instalar tudo que vamos precisar dentro da pasta "meu-app"
+`Esse comando irá instalar tudo que vamos precisar dentro da pasta "meu-app"`
 
 Aguardamos um pouco, esse processo pode levar uns minutos.
 
@@ -45,6 +45,10 @@ Vamos abrir nosso projeto no VS Code para entender melhor o que está acontecend
 
 ![VS code aberto](assets/images/2-vscode.png "VS code aberto")
 
+
+
+<br />
+
 # Beleza, mas onde nosso programa começa?
 
 Sempre pelo o arquivo index.html, que nesse caso está em **public/index.html**
@@ -61,14 +65,12 @@ Esse é o arquivo principal do React, ele que recupera a div#root no index.html.
 
 Outro arquivo importante para entendermos é o App.js, ele é o componente principal da nossa aplicação. 
 
-<br />
-
 # Resumindo:
 
 1. Escrevemos todos os nossos componentes em React
 2. Importamos para o App.js 
 3. O index.js importa o App.js 
-4. O index.js "injeta" no index.html. <br />
+4. O index.js "injeta" no index.html. <br /> <br />
 
 # Hein?! Cadê? Que bagunça é essa?!
 
@@ -84,9 +86,7 @@ Podemos ver no nosso browser que ele fez o reload automaticamente e agora está 
 
 ![Browser executando nosso programa](assets/images/6-appeditado.png "Browser executando nosso programa")
 
-```javascript
-esse reload automático da página com // o Weback é simplesmente fantástico! Mas e assunto para um próximo post. :D <br/>
-```
+`esse reload automático da página com o Weback é simplesmente fantástico! Mas e assunto para um próximo post. :D`
 
 <br />
 
