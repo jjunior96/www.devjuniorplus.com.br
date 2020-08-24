@@ -4,10 +4,9 @@ import media from 'styled-media-query';
 export const SocialLinksWrapper = styled.nav`
   margin: 3rem auto 2.4rem;
   padding: 0 2rem;
-  width: 100%;
+  max-width: 820px;
 
   ${media.lessThan('large')`
-    display: none;
     padding: 1.2rem 2.8rem;
     margin: 0 0 3rem;
     bottom: 0;
