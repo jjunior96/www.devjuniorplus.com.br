@@ -86,7 +86,7 @@ Podemos ver no nosso browser que ele fez o reload automaticamente e agora está 
 
 ![Browser executando nosso programa](assets/images/6-appeditado.png "Browser executando nosso programa")
 
-`esse reload automático da página com o Weback é simplesmente fantástico! Mas e assunto para um próximo post. :D`
+`esse reload automático da página com o Weback é simplesmente fantástico! Mas é assunto para um próximo post. :D`
 
 <br />
 
