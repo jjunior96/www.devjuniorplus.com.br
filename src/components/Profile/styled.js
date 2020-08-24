@@ -9,10 +9,12 @@ export const ProfileWrapper = styled.section`
 
   ${media.lessThan('large')`
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-
+    flex-direction: row;
+    margin-top: -1rem;
   `}
 `;
 
@@ -23,6 +25,8 @@ export const ProfileLink = styled(AniLink)`
 
   ${media.lessThan('large')`
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
   `}
 
   &:hover {
@@ -49,8 +53,6 @@ export const ProfilePosition = styled.small`
   font-size: 1.6rem;
   font-weight: 300;
   margin-top: 0.5rem;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   font-family: var(--font-title-position);
   letter-spacing: 2px;
 
