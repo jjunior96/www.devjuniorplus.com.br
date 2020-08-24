@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import SocialLinks from '../components/SocialLinks';
+import SocialLinksAbout from '../components/SocialLinksAbout';
 import SEO from '../components/seo';
 
 import Image from '../images/darth-vader.jpg';
@@ -83,7 +83,7 @@ const AboutPage = () => (
         redes sociais:
       </p>
     </MainContent>
-    <SocialLinks />
+    <SocialLinksAbout />
   </Layout>
 );
 

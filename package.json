@@ -5,6 +5,8 @@
   "version": "1.0.0",
   "author": "Junior Alves <jjalves96e@gmail.com>",
   "dependencies": {
+    "@styled-icons/foundation": "^10.15.1",
+    "@styled-icons/simple-icons": "^10.17.0",
     "algoliasearch": "^4.4.0",
     "dotenv": "^8.1.0",
     "gatsby": "^2.24.47",
