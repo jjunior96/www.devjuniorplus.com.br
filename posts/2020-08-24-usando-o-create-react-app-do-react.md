@@ -6,6 +6,10 @@ image: assets/images/jsx.jpg
 category: react
 background: "#7b2cbf"
 ---
+
+
+![JSX do React](assets/images/jsx.jpg "JSX do React")
+
 # Introdução
 
 Como vimos no **<u>post anterior</u>**, podemos importar o React dentro dos nossos projetos, basta fazer a importação dentro no arquivo index.html e então podemos utilizar todo o poder dessa biblioteca.
@@ -79,8 +83,6 @@ Bom, agora que entendemos a estrutura base do nosso projeto, vamos o arquivo App
 Podemos ver no nosso browser que ele fez o reload automaticamente e agora está exibindo nosso "Hello World".
 
 ![Browser executando nosso programa](assets/images/6-appeditado.png "Browser executando nosso programa")
-
-
 
 ```javascript
 esse reload automático da página com // o Weback é simplesmente fantástico! Mas e assunto para um próximo post. :D <br/>
