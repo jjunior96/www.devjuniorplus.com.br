@@ -8,7 +8,6 @@ export const SidebarWrapper = styled.aside`
   background-color: var(--background-profile-primary);
   height: 100vh;
   position: fixed;
-  /* padding: 2rem; */
   text-align: center;
   width: 28rem;
 

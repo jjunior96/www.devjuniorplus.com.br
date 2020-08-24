@@ -1,29 +1,15 @@
-import React, { useEffect, createRef } from 'react';
-import lottie from 'lottie-web';
+import React from 'react';
 
-import animation from '../../animations/menuToggler.json';
+import { Menu as MenuIcon } from 'styled-icons/boxicons-regular';
 
 import * as S from './styled';
 
-function Menu() {
-  const animationContainer = createRef();
-
-  useEffect(() => {
-    const anim = lottie.loadAnimation({
-      container: animationContainer.current,
-      renderer: 'svg',
-      loop: false,
-      autoplay: true,
-      animationData: animation,
-    });
-    return () => anim.destroy(); // optional clean up for unmounting
-  }, [animationContainer]);
-
+const Menu = () => {
   return (
     <S.MenuWrapper>
-      <div className="animationContainer" ref={animationContainer} />
+      <MenuIcon />
     </S.MenuWrapper>
   );
-}
+};
 
 export default Menu;

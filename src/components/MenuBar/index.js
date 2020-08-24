@@ -3,9 +3,7 @@
 import React from 'react';
 
 import { Home } from 'styled-icons/remix-fill/';
-// import { UpArrow } from 'styled-icons/boxicons-solid';
 import { UpArrowAlt } from 'styled-icons/boxicons-regular';
-// import { CaretUp } from 'styled-icons/boxicons-regular';
 
 import { Search } from 'styled-icons/boxicons-regular';
 
