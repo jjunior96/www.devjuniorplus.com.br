@@ -28,7 +28,8 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const url = site.siteMetadata.siteUrl;
-  const ogImage = `${url}${image || '/assets/image/cover.jpg'}`;
+  // const ogImage = `${url}${image || '/assets/images/cover.jpg'}`;
+  const ogImage = image || `${url}/assets/images/cover.jpg`;
 
   return (
     <Helmet
@@ -39,8 +40,16 @@ function SEO({ description, lang, meta, title, image }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: `aplication-name`,
+          content: 'Junior Alves Blog',
+        },
+        {
           name: 'description',
           content: metaDescription,
+        },
+        {
+          name: 'author',
+          content: site.siteMetadata.author,
         },
         {
           property: 'og:title',
@@ -84,7 +93,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: 'en',
+  lang: `pt-br`,
   meta: [],
   description: '',
 };
