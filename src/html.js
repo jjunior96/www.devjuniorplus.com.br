@@ -20,6 +20,7 @@ export default function HTML(props) {
           name="google-site-verification"
           content="I5se2_RiHel74uEJkNauk9wVtAoh_hQl-heAEc_gfa4"
         />
+        <meta name="author" content="Junior Alves" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

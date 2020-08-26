@@ -1,11 +1,12 @@
-## Run:
+# Junior Alves - Blog
 
-```
-yarn develop
-```
+Personal website/blog.
 
-## Features
+Currently using:
 
-- [x] **Eslint & Prettier** ready!
-- [x] **Styled Components & gatsby-pluging-styled-components** ready!
-- [x] **Folders Layout, Header & Layout** ready!
+- [Gatsby](https://www.gatsbyjs.org)
+- [React](https://reactjs.org)
+- [GraphQL](https://graphql.org)
+- [Netlify](https://www.netlify.com)
+
+Check my blog [here](https://alvesjunior.netlify.app/).
