@@ -10,17 +10,17 @@ background: "#7b2cbf"
 
 # Introdução
 
-Existem vários conceitos que precisamos entender para dominar essa lib. Mas podemos dizer que existem três que são os **mais importantes**.
+Existem vários conceitos que precisamos entender para dominar essa lib. Mas podemos dizer que existem três que são os **mais importantes**. 
 
-Esses conceitos estão presentes em praticamente todas aplicações construídas com React, podemos até ir além e dizer que são a **base do React**.
+Esses conceitos estão presentes em praticamente todas aplicações construídas com React, podemos até ir além e dizer que são a **base do React**. <br />
 
 # E que conceitos tão importantes são esses?
 
-**Componentes**, **estado** e **propriedades(props)**. Então bora entender esses conceitos na prática? Bora!
+**Componentes**, **estado** e **propriedades(props)**. Então bora entender esses conceitos na prática? Bora! <br />
 
 # Vamos iniciar nosso projeto
 
- No post sobre create-react-app (se não viu, está [aqui](https://alvesjunior.netlify.app/usando-o-create-react-app-do-react/) , utilizamos o componente App.js que é criado por padrão.
+ No post sobre create-react-app (se não viu, está [aqui](https://alvesjunior.netlify.app/usando-o-create-react-app-do-react/)), utilizamos o componente App.js que é criado por padrão.
 
 Nesse projeto, vamos apagar ele e criar o nosso próprio componente, o Todo.js!
 
