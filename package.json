@@ -2,7 +2,7 @@
   "name": "my-blog",
   "private": true,
   "description": "A blog about code and books.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Junior Alves <jjalves96e@gmail.com>",
   "dependencies": {
     "@styled-icons/foundation": "^10.15.1",
@@ -31,7 +31,6 @@
     "gatsby-transformer-sharp": "^2.2.5",
     "gsap": "^3.5.0",
     "lazysizes": "^5.1.1",
-    "lottie-web": "^5.7.3",
     "netlify-cms-app": "^2.9.7",
     "netlify-plugin-gatsby-cache": "^0.3.2",
     "prismjs": "^1.21.0",
