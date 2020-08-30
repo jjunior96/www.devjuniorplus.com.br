@@ -1,5 +1,5 @@
 ---
-title: Operações de um Array em Javascript
+title: Operações com Array em Javascript
 description: Vamos conhecer o push, splice, fill e outros métodos dos arrays
   mais alguns detalhes importantes que talvez você não saiba
 date: 2020-08-30 07:02:09
