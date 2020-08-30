@@ -34,7 +34,6 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased !important;
   }
 
 /* pseudo-elemento que aplica estilos para partes do documento 
@@ -90,6 +89,8 @@ const GlobalStyles = createGlobalStyle`
     --hightlight-quote: #ff7f50;
     --color-line-borders: #4E5166;
 
+    --background-blockquote: #767b9140;
+
     /* Social Links BG */
     --background-social-links: #343643;
 
@@ -108,6 +109,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     line-height: 1;
+    -webkit-font-smoothing: antialiased !important;
   }
   ol, ul {
     list-style: none;

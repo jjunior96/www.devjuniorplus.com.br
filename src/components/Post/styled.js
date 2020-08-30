@@ -125,10 +125,12 @@ export const MainContent = styled.section`
   `}
   }
   blockquote {
-    color: var(--postColor);
+    color: var(--post-color);
     border-left: 0.5rem solid var(--hightlight-quote);
-    padding: 0 2.4rem;
+    padding: 1.2rem 2.4rem .1rem;
     margin: 3.125rem auto;
+    background-color: var(--background-blockquote);
+    border-radius: 4px; 
   }
   hr {
     border: 1px solid var(--color-line-borders);
