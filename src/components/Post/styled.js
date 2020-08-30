@@ -182,6 +182,16 @@ export const MainContent = styled.section`
     font-weight: 700;
   }
 
+  mark{
+    background-color: #767b91;
+    padding: 0.3rem;
+    border-radius: 4px;
+    color: #fff;
+    font-family: var(--font-mark);
+    font-weight: 400;
+    font-style: italic;
+  }
+
   .gatsby-resp-image-background-image {
     z-index: 2;
     opacity: 1 !important;
