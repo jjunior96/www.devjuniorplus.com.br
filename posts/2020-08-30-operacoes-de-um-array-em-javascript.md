@@ -1,7 +1,6 @@
 ---
 title: Operações de um Array em Javascript
-description: " Vamos conhecer o push, splice, fill e outros métodos dos arrays
-  mais alguns detalhes importantes que talvez você não saiba"
+description: Vamos conhecer alguns detalhes importantes que talvez você não saiba.
 date: 2020-08-30 09:08:02
 image: assets/images/jsmutator.jpg
 category: js
