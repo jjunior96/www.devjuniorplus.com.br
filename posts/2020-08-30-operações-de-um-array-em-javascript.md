@@ -13,30 +13,30 @@ Para facilitar a utilização desse post como pesquisa, dividi em tópicos:
 
 
 
-* [Introdução](#introducao)
-* [Declarando um array em JS](#declarando-um-array-em-js)
-* [Propriedade length](#propriedade-length)
-* [Array Mutator API](#array-mutator-api)
-* [push](#push)
-* [pop](#pop)
-* [unshift](#unshift)
-* [shift](#shift)
-* [splice](#splice)
-* [sort](#sort)
-* [reverse](#reverse)
-* [fill](#fill)
+- [Introdução](#introducao)
+- [Declarando um array em JS](#declarando-um-array-em-js)
+- [Propriedade length](#propriedade-length)
+- [Array Mutator API](#array-mutator-api)
+- [push](#push)
+- [pop](#pop)
+- [unshift](#unshift)
+- [shift](#shift)
+- [splice](#splice)
+- [sort](#sort)
+- [reverse](#reverse)
+- [fill](#fill)
 
 <br />
 
 
 
-# Introdução
+<h2 id="introducao">Introdução</h2>
 
 Em várias linguagens de programação, temos o tipo de dado **Array**, que nos permitem armazenar vários dados como uma lista. Em Javascript também temos essa estrutura, mas de uma forma um pouco diferente. Os Arrays em JS são na verdade **objetos** que oferecem operações para **acessar** e **manipular** suas propriedades.
 
 Arrays são similares as **Strings**, sendo que, ambos consistem de uma sequência de elementos que podem ser acessados via índice. Porém, devemos lembrar que ***Strings são um tipo de dados imutável***, o que significa que não podemos alterá-lo. Já os ***Arrays são mutáveis***, o que significa que ao acessar os métodos ***Array Mutator API***, o Array original será alterado.
 
-# Declarando um array em JS
+<h2 id="declarando-um-array-em-js" tabindex="-1" style="outline: none;">Declarando um array em JS</h2>
 
 Antes de qualquer coisa, vamos ver as formas de declarar um Array em JS, que basicamente são duas:
 
@@ -73,7 +73,7 @@ Antes de qualquer coisa, vamos ver as formas de declarar um Array em JS, que bas
 
 <br />
 
-# Propriedade length
+<h2 id="propriedade-length" tabindex="-1" style="outline: none;">Propriedade length</h2> 
 
 Podemos descobrir a quantidade de elementos de um Array acessando a propriedade **length**, dessa forma:
 
@@ -102,13 +102,13 @@ console.log(numeros.length); // 5
 
 <br />
 
-# Array Mutator API
+<h2 id="array-mutator-api" tabindex="-1" style="outline: none;">Array Mutator API</h2>  
 
 > Conjunto de operações que **modificam** o Array original
 
 <br />
 
-## push()
+<h2 id="push" tabindex="-1" style="outline: none;">push()</h2> 
 
 O método <mark>push()</mark> adiciona um novo elemento no **final** do array.
 
@@ -132,7 +132,7 @@ console.log(pessoas.push("João")); // 4, length agora é 4
 
 <br />
 
-## pop()
+<h2 id="pop" tabindex="-1" style="outline: none;">pop()</h2> 
 
 O método <mark>pop()</mark> remove um elemento do **final** do array, ou seja, é o inverso do <mark>push()</mark>.
 
@@ -151,7 +151,7 @@ Retorna o elemento que foi removido do **final** do array.
 
 <br />
 
-## unshift()
+<h2 id="unshift" tabindex="-1" style="outline: none;">unshift()</h2> 
 
 O método <mark>unshift()</mark> adiciona um elemento no **início** do array.
 
@@ -170,7 +170,7 @@ Semelhante ao <mark>push()</mark>, o <mark>unshift()</mark>também retorna o nov
 
 <br />
 
-## shift()
+<h2 id="shift" tabindex="-1" style="outline: none;">shift()</h2> 
 
 O método <mark>shift()</mark> remove um elemento do **início** do array, ou seja, o inverso do <mark>unshift()</mark>.
 
@@ -189,7 +189,7 @@ O <mark>shift()</mark> retorna o elemento que foi removido do **início** do arr
 
 <br />
 
-## splice()
+<h2 id="splice" tabindex="-1" style="outline: none;">splice()</h2> 
 
 O método <mark>splice()</mark> remove, adiciona ou substitui um ou mais elementos em uma determinada posição do array.
 
@@ -245,7 +245,7 @@ console.log(pessoas.splice(1, 2, "Joaquim")); // posição 1, remove 2, adiciona
 
 <br />
 
-## sort()
+<h2 id="sort" tabindex="-1" style="outline: none;">sort()</h2> 
 
 O método <mark>sort()</mark> ordena os elementos do array de acordo com a função de ordenação.
 
@@ -310,7 +310,7 @@ pessoas.sort(function(a, b) {
 
 <br />
 
-## reverse()
+<h2 id="reverse" tabindex="-1" style="outline: none;">reverse()</h2> 
 
 O método <mark>reverse()</mark> inverte a ordem dos elementos do array.
 
@@ -329,7 +329,7 @@ O array invertido. Para desfazer a inversão, basta realizar outro <mark>reverse
 
 <br />
 
-## fill()
+<h2 id="fill" tabindex="-1" style="outline: none;">fill()</h2> 
 
 O método <mark>fill()</mark> preenche os elementos de acordo com a posição de início e fim.
 
