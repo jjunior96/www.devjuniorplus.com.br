@@ -6,14 +6,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;300;400;600;700&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap'); */
-
   @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
 
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -39,6 +34,7 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased !important;
   }
 
 /* pseudo-elemento que aplica estilos para partes do documento 
@@ -101,6 +97,7 @@ const GlobalStyles = createGlobalStyle`
     /* --font-title-position: 'Montserrat', sans-serif; */
     --font-title-position: 'Play', sans-serif;
     --font-title-main: 'Permanent Marker', cursive;
+    --font-mark: 'Ubuntu', sans-serif;
 
   }
 
