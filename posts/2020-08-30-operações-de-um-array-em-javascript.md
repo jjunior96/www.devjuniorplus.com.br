@@ -30,26 +30,26 @@ Para facilitar a utilização desse post como pesquisa, dividi em tópicos:
 
 
 
-## Introdução
+# Introdução
 
 Em várias linguagens de programação, temos o tipo de dado **Array**, que nos permitem armazenar vários dados como uma lista. Em Javascript também temos essa estrutura, mas de uma forma um pouco diferente. Os Arrays em JS são na verdade **objetos** que oferecem operações para **acessar** e **manipular** suas propriedades.
 
 Arrays são similares as **Strings**, sendo que, ambos consistem de uma sequência de elementos que podem ser acessados via índice. Porém, devemos lembrar que ***Strings são um tipo de dados imutável***, o que significa que não podemos alterá-lo. Já os ***Arrays são mutáveis***, o que significa que ao acessar os métodos ***Array Mutator API***, o Array original será alterado.
 
-## Declarando um array em JS
+# Declarando um array em JS
 
 Antes de qualquer coisa, vamos ver as formas de declarar um Array em JS, que basicamente são duas:
 
 1. Declarar e já atribuir (ou não) seus valores:
 
-   ```js
+   ```javascript
    const pessoas = []; // Declara um array vazio
 
    const pessoas = ['Maria', 'José', 'Joaquim', 'Marcos']; 
    ```
 2. Utilizar a função construtora: 
 
-   ```js
+   ```javascript
    const pessoas = new Array(); // Declara utilizando a função construtora
 
    const pessoas = new Array('Maria', 'José', 'Joaquim', 'Marcos'); 
@@ -61,17 +61,19 @@ Antes de qualquer coisa, vamos ver as formas de declarar um Array em JS, que bas
 >
 > Na segunda forma, temos um detalhe importante que precisa ser mencionado. Veja o exemplo abaixo:
 >
-> ```js
+> ```javascript
 > const numeros = new Array(10, 9, 12, 34); // => [10, 9, 12, 34]
 > ```
 >
-> Isso é o comportamento padrão que esperamos, porém, se passarmos apenas um número para a função construtora, o que acontede é:
+> Isso é o comportamento padrão que esperamos, porém, se passarmos apenas um número para a função construtora, o que acontece é:
 >
 > ```javascript
 > const numeros = new Array(10); // => Aloca um array com 10 posições vazias
 > ```
 
-## Propriedade length
+<br />
+
+# Propriedade length
 
 Podemos descobrir a quantidade de elementos de um Array acessando a propriedade **length**, dessa forma:
 
@@ -98,11 +100,15 @@ console.log(numeros.length); // 5
 >    // Resposta = 21 
 >    ```
 
-## Array Mutator API
+<br />
+
+# Array Mutator API
 
 > Conjunto de operações que **modificam** o Array original
 
-### push()
+<br />
+
+## push()
 
 O método <mark>push()</mark> adiciona um novo elemento no **final** do array.
 
@@ -124,7 +130,9 @@ const pessoas = ["Maria", "Joaquim", "Marcos"]; // length = 3
 console.log(pessoas.push("João")); // 4, length agora é 4
 ```
 
-### pop()
+<br />
+
+## pop()
 
 O método <mark>pop()</mark> remove um elemento do **final** do array, ou seja, é o inverso do <mark>push()</mark>.
 
@@ -141,7 +149,9 @@ pessoas.pop();
 
 Retorna o elemento que foi removido do **final** do array.
 
-### unshift()
+<br />
+
+## unshift()
 
 O método <mark>unshift()</mark> adiciona um elemento no **início** do array.
 
@@ -158,7 +168,9 @@ console.log(pessoas.unshift("Marcos"));
 
 Semelhante ao <mark>push()</mark>, o <mark>unshift()</mark>também retorna o novo <mark>length()</mark>.
 
-### shift()
+<br />
+
+## shift()
 
 O método <mark>shift()</mark> remove um elemento do **início** do array, ou seja, o inverso do <mark>unshift()</mark>.
 
@@ -175,7 +187,9 @@ console.log(pessoas.shift("Marcos"));
 
 O <mark>shift()</mark> retorna o elemento que foi removido do **início** do array.
 
-### splice()
+<br />
+
+## splice()
 
 O método <mark>splice()</mark> remove, adiciona ou substitui um ou mais elementos em uma determinada posição do array.
 
@@ -229,7 +243,9 @@ console.log(pessoas.splice(1, 2, "Joaquim")); // posição 1, remove 2, adiciona
 2. **Adiciona**: \[ ];
 3. **Substitui**: retorna um array com os elementos removidos;
 
-### sort()
+<br />
+
+## sort()
 
 O método <mark>sort()</mark> ordena os elementos do array de acordo com a função de ordenação.
 
@@ -274,7 +290,7 @@ pessoas.sort(function(a, b) {
 > 1. **return -1 ou 0**: O array fica como está, não altera a ordem;
 > 2. **return 1**: O array é invertido;
 >
-> Para ordernar pelo nome, podemos fazer: 
+> Para ordenar pelo nome, podemos fazer: 
 >
 > ```javascript
 > pessoas.sort(function(a, b) {
@@ -292,7 +308,9 @@ pessoas.sort(function(a, b) {
 >
 > *<mark>localeCompare()</mark> é um método para Strings onde retorna 1 ou -1; utilizado para palavras com acentuação e/ou caracteres específicos de uma região.* 
 
-### reverse()
+<br />
+
+## reverse()
 
 O método <mark>reverse()</mark> inverte a ordem dos elementos do array.
 
@@ -309,7 +327,9 @@ console.log(pessoas.reverse());
 
 O array invertido. Para desfazer a inversão, basta realizar outro <mark>reverse()</mark>.
 
-### fill()
+<br />
+
+## fill()
 
 O método <mark>fill()</mark> preenche os elementos de acordo com a posição de início e fim.
 
