@@ -11,10 +11,16 @@ background: "#ffbe0b"
 
 Para facilitar a utilização desse post como pesquisa, dividi em tópicos:
 
-* [Introdução](#Introdução)
-* [Declarando um array em JS](#Declarando-um-array-em-js)
-* [Propriedade length](#Propriedade-length)
-* [Array Mutator API](#Array-Mutator-API)
+
+
+Para facilitar a utilização desse post como pesquisa, dividi em tópicos:
+
+<a href="#introducao">Introdução</a>
+
+* [Introdução](#introducao)
+* [Declarando um array em JS](#declarando-um-array-em-js)
+* [Propriedade length](#propriedade-length)
+* [Array Mutator API](#array-mutator-api)
 * [push](#push)
 * [pop](#pop)
 * [unshift](#unshift)
@@ -186,7 +192,7 @@ O <mark>shift()</mark> retorna o elemento que foi removido do **início** do arr
 
 ### splice()
 
-O método <mark>splicel()</mark> remove, adiciona ou substitui um ou mais elementos em uma determinada posição do array.
+O método <mark>splice()</mark> remove, adiciona ou substitui um ou mais elementos em uma determinada posição do array.
 
 ***Parâmetros:*** 
 
