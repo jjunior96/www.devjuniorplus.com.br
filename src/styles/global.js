@@ -36,36 +36,20 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-/* pseudo-elemento que aplica estilos para partes do documento 
-** que foram selecionadas, tipo selecionar um texo 
-*/
-::selection {
-  background-color: #48dbfb60;
-}
+  ::selection {
+    background-color: #48dbfb60;
+  }
 
-/* Barra de rolagem do navegador */
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #46495A;
-}
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #46495A;
+  }
 
-::-webkit-scrollbar-thumb {
-  background-color: #e1e5ee;
-}
+  ::-webkit-scrollbar-thumb {
+    background-color: #e1e5ee;
+  }
 
   :root {
-    /* 
-    #e1e5ee
-    #c7ccdb
-    #767b91
-    #2a324b
-    #fff
-    */
-    /* 
-      #383A47
-      #3D3F4D
-    */
-
     /* Layout */
     --background-layout-main: #383A47;
     --background-layout-mobile: #383a47f6;
@@ -81,8 +65,6 @@ const GlobalStyles = createGlobalStyle`
     /* Menu Links */
     --color-link-primary: #e1e5ee;
     --color-link-hover: #ff7f50;
-    /* --color-link-hover: #767b91; */
-    /* --color-link-hover: #83A7F7; */
 
     /* Post color */
     --post-color: #fff;
@@ -95,15 +77,12 @@ const GlobalStyles = createGlobalStyle`
     /* Social Links BG */
     --background-social-links: #343643;
 
-    /* --font-title-main: 'Comfortaa', cursive; */
-    /* --font-title-position: 'Montserrat', sans-serif; */
     --font-title-position: 'Play', sans-serif;
     --font-title-main: 'Permanent Marker', cursive;
     --font-mark: 'Ubuntu', sans-serif;
 
   }
 
-  /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
     display: block;
@@ -140,26 +119,6 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: auto;
   }
-  /* body.dark {
-    --borders: #38444d;
-    --texts: #8899a6;
-    --postColor: #fff;
-    --hightlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
-    --white: #fff;
-    --black: #222;
-  }
-  body.light {
-    --borders: #dedede;
-    --texts: #555555;
-    --postColor: #111;
-    --hightlight: #1fa1f2;
-    --mediumBackground: #f0f0f3;
-    --background: #fff;
-    --white: #fff;
-    --black: #222;
-  } */
 `;
 
 export default GlobalStyles;

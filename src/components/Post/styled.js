@@ -128,7 +128,7 @@ export const MainContent = styled.section`
     color: var(--post-color);
     border-left: 0.5rem solid var(--hightlight-quote);
     padding: 1.2rem 2.4rem .1rem;
-    margin: 3.125rem auto;
+    margin: 3.2rem auto;
     background-color: var(--background-blockquote);
     border-radius: 4px; 
   }
