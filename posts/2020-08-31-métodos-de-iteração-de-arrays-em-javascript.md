@@ -10,7 +10,7 @@ background: "#ffbe0b"
 
 # Introdução
 
-Dando continuidade ao último **<u>post</u>** sobre arrays em Javascript, onde discutimos sobre as formas de declarar um array, a **Mutation Mutator API** entre outras coisas, hoje vamos falar sobre a **Array Iteration API**.
+Dando continuidade ao último [post](https://alvesjunior.netlify.app/operacoes-de-um-array-em-javascript/) sobre arrays em Javascript, onde discutimos sobre as formas de declarar um array, a **Mutation Mutator API** entre outras coisas, hoje vamos falar sobre a **Array Iteration API**.
 
 A ***Array Iteration API***, fornecem os ***Iteration Methods*** (métodos de iteração) que nada mais são que:
 
@@ -248,10 +248,10 @@ A função passada para o reduce, recebe dois parâmetros, o **acumulador** e o 
 >
 > ```javascript
 > const numeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
-> 
+>
 > const numerosPares = numeros.map((numero) => numero * 3)
 >                             .filter((numero) => numero % 2 === 0);
-> 
+>
 > console.log(numerosPares); // [ 6, 12, 18, 24, 30 ]
 > ```
 >
@@ -260,11 +260,9 @@ A função passada para o reduce, recebe dois parâmetros, o **acumulador** e o 
 > ```javascript
 > numeros.forEach((numero) => numero * 3)
 > 			 .filter((numero) => numero % 2 === 0);
-> 
+>
 > // TypeError: Cannot read property 'filter' of undefined
 > ```
->
-> 
 >
 > ## Exemplo <mark>forEach()</mark>:
 >
@@ -272,13 +270,12 @@ A função passada para o reduce, recebe dois parâmetros, o **acumulador** e o 
 >
 > ```javascript
 > const nomes = ["Maria", "Joaquim", "José"];
-> 
+>
 > nomes.forEach(function(nome, index) {
 >   return nomes[index] = nome.toUpperCase();
 > });
 > console.log(nomes); // [ 'MARIA', 'JOAQUIM', 'JOSÉ' ]
 > ```
->
 
 <br />
 
