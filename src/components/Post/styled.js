@@ -133,7 +133,8 @@ export const MainContent = styled.section`
     border-radius: 4px; 
   }
   hr {
-    border: 1px solid var(--color-line-borders);
+    border: 1px solid var(--color-line-hr);
+    width: 60%;
     margin: 3rem auto;
   }
   #twitter-widget-0,
