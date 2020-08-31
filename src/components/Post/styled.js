@@ -155,14 +155,14 @@ export const MainContent = styled.section`
     font-size: 3.2rem;
     
     ${media.lessThan('large')`
-      font-size: 2.4rem;
+      font-size: 2.8rem;
   `}
   }
   h2 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     
     ${media.lessThan('large')`
-      font-size: 2rem;
+      font-size: 2.2rem;
   `}
   }
   h3 {
