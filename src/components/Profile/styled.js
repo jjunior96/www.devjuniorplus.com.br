@@ -25,7 +25,6 @@ export const ProfileLink = styled(AniLink)`
 
   ${media.lessThan('large')`
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
   `}
 
