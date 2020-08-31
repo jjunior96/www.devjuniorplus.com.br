@@ -8,9 +8,7 @@ background: "#ffbe0b"
 ---
 ![sequencia de tijolos ](assets/images/iteration.jpg "sequencia de tijolos")
 
-
-
-## Introdução
+# Introdução
 
 Dando continuidade ao último **<u>post</u>** sobre arrays em Javascript, onde discutimos sobre as formas de declarar um array, a **Mutation Mutator API** entre outras coisas, hoje vamos falar sobre a **Array Iteration API**.
 
@@ -24,7 +22,7 @@ Vamos conhecer e entender um pouco mais sobre esses métodos!
 
 <br />
 
-## forEach
+# forEach
 
 Executa a função passada por parâmetro para cada elemento do array.
 
@@ -35,7 +33,7 @@ pessoas.forEach((pessoa) => console.log(pessoa));
 
 <br />
 
-## filter
+# filter
 
 Retorna um novo array contendo somente os elementos que retornaram **true** na função passada por parâmetro.
 
@@ -66,7 +64,7 @@ pessoas.filter(function(pessoa) {
 
 <br />
 
-## find
+# find
 
 Retorna o primeiro elemento do array que retornou **true** na função passada por parâmetro.
 
@@ -97,7 +95,7 @@ pessoas.find(function(pessoa) {
 
 <br />
 
-## some
+# some
 
 Retorna **true** se um ou mais elementos retornaram **true** na função passada por parâmetro.
 
@@ -126,7 +124,7 @@ pessoas.some(function(pessoa) {
 
 <br />
 
-## every
+# every
 
 Retorna **true** se **todos** elementos retornaram **true** na função passada por parâmetro.
 
@@ -155,7 +153,7 @@ pessoas.every(function(pessoa) {
 
 <br />
 
-## map
+# map
 
 Retorna um novo array com base no retorno da função passada por parâmetro.
 
@@ -186,7 +184,7 @@ pessoas.map((pessoa) => pessoa.name);
 
 <br />
 
-## reduce
+# reduce
 
 Retorna um valor com base no retorno da função passada por parâmetro.
 
@@ -230,56 +228,57 @@ A função passada para o reduce, recebe dois parâmetros, o **acumulador** e o 
 
 <br />
 
-## map vs forEach, fight!
-
-Eu tinha muitas dúvidas sobre o <mark>map()</mark> e o <mark>forEach()</mark>, como "quando utilizar um ou o outro?", "qual o melhor?" etc.
-
-Depois de várias pesquisas sobre cada um, cheguei a uma resposta definitiva sobre qual o melhor: **depende do contexto!**
-
-Brincadeiras à parte, a verdade é essa, pois cada um tem suas aplicações. O que temos que ter em mente, é como cada um deles trabalha, daí escolher a melhor opção para cada situação. 
-
-Se precisamos encadear operações como mapear os elementos de um array e filtrar os elementos pares, sem dúvidas vamos precisar utilizar o <mark>map()</mark>. Ele permite esse encadeamento, já o <mark>forEach()</mark> não.
-
-### Exemplo <mark>map()</mark>:
-
-Temos um array ***numeros*** com valores de 1 até 10.
-
-Primeiro multiplicamos cada elemento por 3.
-
-Depois precisamos apenas dos valores pares.
-
-```javascript
-const numeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
-
-const numerosPares = numeros.map((numero) => numero * 3)
-                            .filter((numero) => numero % 2 === 0);
-
-console.log(numerosPares); // [ 6, 12, 18, 24, 30 ]
-```
-
-Se tentarmos o mesmo com o <mark>forEach()</mark>, temos o seguinte erro:
-
-```javascript
-numeros.forEach((numero) => numero * 3)
-			 .filter((numero) => numero % 2 === 0);
-
-// TypeError: Cannot read property 'filter' of undefined
-```
-
-<br />
-
-### Exemplo <mark>forEach()</mark>:
-
-Temos um array ***nomes***. Queremos transformar todos os nomes em caixa alta. Podemos utilizar o <mark>forEach()</mark>, onde a função será executada para cada elemento do array.
-
-```javascript
-const nomes = ["Maria", "Joaquim", "José"];
-
-nomes.forEach(function(nome, index) {
-  return nomes[index] = nome.toUpperCase();
-});
-console.log(nomes); // [ 'MARIA', 'JOAQUIM', 'JOSÉ' ]
-```
+> # map vs forEach, fight!
+>
+> Eu tinha muitas dúvidas sobre o <mark>map()</mark> e o <mark>forEach()</mark>, como "quando utilizar um ou o outro?", "qual o melhor?" etc.
+>
+> Depois de várias pesquisas sobre cada um, cheguei a uma resposta definitiva sobre qual o melhor: **depende do contexto!**
+>
+> Brincadeiras à parte, a verdade é essa, pois cada um tem suas aplicações. O que temos que ter em mente, é como cada um deles trabalha, daí escolher a melhor opção para cada situação. 
+>
+> Se precisamos encadear operações como mapear os elementos de um array e filtrar os elementos pares, sem dúvidas vamos precisar utilizar o <mark>map()</mark>. Ele permite esse encadeamento, já o <mark>forEach()</mark> não.
+>
+> ## Exemplo <mark>map()</mark>:
+>
+> Temos um array ***numeros*** com valores de 1 até 10.
+>
+> Primeiro multiplicamos cada elemento por 3.
+>
+> Depois precisamos apenas dos valores pares.
+>
+> ```javascript
+> const numeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+> 
+> const numerosPares = numeros.map((numero) => numero * 3)
+>                             .filter((numero) => numero % 2 === 0);
+> 
+> console.log(numerosPares); // [ 6, 12, 18, 24, 30 ]
+> ```
+>
+> Se tentarmos o mesmo com o <mark>forEach()</mark>, temos o seguinte erro:
+>
+> ```javascript
+> numeros.forEach((numero) => numero * 3)
+> 			 .filter((numero) => numero % 2 === 0);
+> 
+> // TypeError: Cannot read property 'filter' of undefined
+> ```
+>
+> 
+>
+> ## Exemplo <mark>forEach()</mark>:
+>
+> Temos um array ***nomes***. Queremos transformar todos os nomes em caixa alta. Podemos utilizar o <mark>forEach()</mark>, onde a função será executada para cada elemento do array.
+>
+> ```javascript
+> const nomes = ["Maria", "Joaquim", "José"];
+> 
+> nomes.forEach(function(nome, index) {
+>   return nomes[index] = nome.toUpperCase();
+> });
+> console.log(nomes); // [ 'MARIA', 'JOAQUIM', 'JOSÉ' ]
+> ```
+>
 
 <br />
 
@@ -287,7 +286,7 @@ console.log(nomes); // [ 'MARIA', 'JOAQUIM', 'JOSÉ' ]
 
 <br />
 
-## Conclusão
+# Conclusão
 
 Nesse post, vimos os métodos de iteração com arrays em Javascript, alguns exemplos e as diferenças entre o <mark>map()</mark> e o <mark>forEach()</mark>.
 
