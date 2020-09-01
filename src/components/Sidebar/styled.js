@@ -24,7 +24,7 @@ export const SidebarWrapper = styled.aside`
   `}
 `;
 
-export const SidebarFooter = styled.section`
+export const SidebarEmailLink = styled.section`
   position: fixed;
   bottom: 0;
   margin-bottom: 4rem;

@@ -1,10 +1,9 @@
 import React from 'react';
 
 import Profile from '../Profile';
-import Menu from '../Menu';
 import SocialLinks from '../SocialLinks';
 import MenuLinks from '../MenuLinks';
-import Footer from '../Footer';
+import EmailLink from '../EmailLink';
 
 import * as S from './styled';
 
@@ -14,11 +13,10 @@ const Sidebar = () => {
       <Profile />
       <SocialLinks />
       <MenuLinks />
-      <Menu />
 
-      <S.SidebarFooter>
-        <Footer />
-      </S.SidebarFooter>
+      <S.SidebarEmailLink>
+        <EmailLink />
+      </S.SidebarEmailLink>
     </S.SidebarWrapper>
   );
 };
