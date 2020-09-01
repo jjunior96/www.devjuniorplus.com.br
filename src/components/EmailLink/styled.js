@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 import media from 'styled-media-query';
 
-export const FooterWrapper = styled.footer`
+export const EmailWrapper = styled.div`
   ${media.lessThan('large')`
     display: none;
   `}
 `;
 
-export const FooterEmail = styled.a`
+export const EmailLink = styled.a`
   text-decoration: none;
   font-family: var(--font-title-position);
   font-weight: 100;

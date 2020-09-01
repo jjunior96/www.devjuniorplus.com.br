@@ -77,8 +77,8 @@ const GlobalStyles = createGlobalStyle`
     /* Social Links BG */
     --background-social-links: #343643;
 
-    --font-title-position: 'Play', sans-serif;
     --font-title-main: 'Permanent Marker', cursive;
+    --font-title-position: 'Play', sans-serif;
     --font-mark: 'Ubuntu', sans-serif;
 
   }
