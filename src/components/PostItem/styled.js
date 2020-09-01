@@ -11,10 +11,7 @@ export const PostItemLink = styled(AniLink)`
   max-width: 1600px;
   margin: 0 auto;
   transition: color 0.4s;
-
-  &:hover {
-    color: var(--color-link-hover);
-  }
+  cursor: default;
 `;
 
 export const PostItemWrapper = styled.section`
@@ -26,10 +23,12 @@ export const PostItemWrapper = styled.section`
   box-shadow: 0 10px 10px #313240;
   border-radius: 20px;
   margin: 1.2rem 0 1.2rem;
-  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, color 0.4s;
 
   &:hover {
     box-shadow: 0 14px 20px #2a2b39;
+    color: var(--color-link-hover);
+    cursor: pointer;
   }
 
   ${media.lessThan('large')`
