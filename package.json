@@ -2,7 +2,7 @@
   "name": "my-blog",
   "private": true,
   "description": "A blog about code and books.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": "Junior Alves <jjalves96e@gmail.com>",
   "dependencies": {
     "@styled-icons/foundation": "^10.15.1",
