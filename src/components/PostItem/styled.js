@@ -22,7 +22,7 @@ export const PostItemWrapper = styled.section`
   width: 95%;
   box-shadow: 0 10px 10px #313240;
   border-radius: 20px;
-  margin: 1.2rem 2.4rem 1.2rem;
+  margin: 1.6rem 2.4rem 0.8rem;
   transition: box-shadow 0.4s, color 0.4s;
 
   &:hover {
