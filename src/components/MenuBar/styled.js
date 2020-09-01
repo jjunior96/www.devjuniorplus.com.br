@@ -24,7 +24,7 @@ export const MenuBarList = styled.ul`
   ${media.lessThan('large')`
     display: flex;
     margin: 0 auto;
-    margin-left: -1.2rem;
+    margin-left: -0.9rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
