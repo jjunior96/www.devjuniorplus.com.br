@@ -10,6 +10,7 @@ export const PostItemLink = styled(AniLink)`
   text-decoration: none;
   max-width: 1600px;
   margin: 0 auto;
+  transition: color 0.4s;
 
   &:hover {
     color: var(--color-link-hover);
@@ -25,7 +26,7 @@ export const PostItemWrapper = styled.section`
   box-shadow: 0 10px 10px #313240;
   border-radius: 20px;
   margin: 1.2rem 0 1.2rem;
-  transition: border 0.3s, box-shadow 0.3s;
+  transition: box-shadow 0.4s;
 
   &:hover {
     box-shadow: 0 14px 20px #2a2b39;
