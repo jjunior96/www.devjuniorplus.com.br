@@ -17,14 +17,12 @@ export const MenuLinksList = styled.ul`
 `;
 
 export const MenuLinksItem = styled.li`
-  /* padding: 1rem 0; */
   display: flex;
   width: 100%;
 
   .active {
     color: var(--color-link-hover);
-    background-image: linear-gradient(to right, #383a47, #46495a);
-    border-left: 3px solid #ff7f50;
+    background-image: linear-gradient(to left, #383a47, #46495a);
   }
 `;
 
@@ -38,6 +36,5 @@ export const MenuLinksLink = styled(AniLink)`
 
   &:hover {
     color: var(--color-link-hover);
-    /* background-image: linear-gradient(to right, #383a47, #46495a); */
   }
 `;

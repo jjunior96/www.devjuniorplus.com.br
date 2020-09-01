@@ -60,11 +60,15 @@ const GlobalStyles = createGlobalStyle`
     --color-profile-hover: #767b91;
     
     /* line PostItem */
-    --color-line-postitem: #4E5166;
+    /* --color-line-postitem: #4E5166; */
+    --color-line-postitem: #4E51664D;
 
     /* Menu Links */
     --color-link-primary: #e1e5ee;
     --color-link-hover: #ff7f50;
+
+    /* MenuBar */
+    --background-menubar: #383A47;
 
     /* Post color */
     --post-color: #fff;
