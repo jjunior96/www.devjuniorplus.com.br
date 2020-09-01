@@ -15,6 +15,7 @@ export const LayoutMain = styled.main`
   transition: background-color, color 0.5s;
   min-height: 100vh;
   font-size: 1.6rem;
+  padding-top: 0.5rem;
   padding-left: 28rem;
   width: 100%;
 

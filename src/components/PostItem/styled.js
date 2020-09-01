@@ -3,11 +3,13 @@ import media from 'styled-media-query';
 import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 export const PostItemLink = styled(AniLink)`
-  color: #ddd;
+  color: var(--color-profile-primary);
   display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  transition: color 0.3s;
-  overflow: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
 
   &:hover {
     color: var(--color-link-hover);
@@ -17,14 +19,17 @@ export const PostItemLink = styled(AniLink)`
 export const PostItemWrapper = styled.section`
   align-items: center;
   border: 1px solid var(--color-line-postitem);
-  /* border-bottom: 1px solid var(--color-line-postitem); */
   display: flex;
   padding: 2rem 3rem;
   width: 95%;
   box-shadow: 0 10px 10px #313240;
   border-radius: 20px;
-  margin: 0 auto;
-  margin-bottom: 2.4rem;
+  margin: 1.2rem 0 1.2rem;
+  transition: border 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 14px 20px #2a2b39;
+  }
 
   ${media.lessThan('large')`
     align-items: flex-start;
