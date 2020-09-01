@@ -66,6 +66,9 @@ const GlobalStyles = createGlobalStyle`
     --color-link-primary: #e1e5ee;
     --color-link-hover: #ff7f50;
 
+    /* MenuBar */
+    --background-menubar: #383A47;
+
     /* Post color */
     --post-color: #fff;
     --hightlight-quote: #ff7f50;

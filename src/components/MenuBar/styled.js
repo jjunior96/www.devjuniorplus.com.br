@@ -12,7 +12,7 @@ export const MenuBarWrapper = styled.nav`
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: var(--background-social-links);
+    background-image: linear-gradient(to top, #383A47, #383A47, #383A47, #383A47, #3D3F4F);
     margin: 0;
     padding: 1.2rem 2.8rem;
     bottom: 0;
