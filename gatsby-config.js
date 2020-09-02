@@ -4,7 +4,7 @@ const queries = require('./src/utils/algolia_queries');
 module.exports = {
   siteMetadata: {
     title: `Junior Alves`,
-    position: `Javacript Developer`,
+    position: `Javascript Developer`,
     description: `Escrevo sobre código e livros.`,
     author: `jjunior`,
     siteUrl: `https://alvesjunior.netlify.app`,
