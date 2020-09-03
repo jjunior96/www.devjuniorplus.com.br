@@ -135,7 +135,7 @@ export const MainContent = styled.section`
   hr {
     border: none;
     width: 60%;
-    margin: 2.4rem auto 4rem;
+    margin: 1rem auto 2.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
