@@ -133,9 +133,21 @@ export const MainContent = styled.section`
     border-radius: 4px; 
   }
   hr {
-    border: 1px solid var(--color-line-hr);
+    border: none;
     width: 60%;
-    margin: 3rem auto;
+    margin: 2.4rem auto 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      content: "...";
+      color: #fff;
+      font-size: 3.2rem;
+      letter-spacing: 0.6em;
+      text-indent: 0.6em;
+      font-style: italic;
+    }
   }
   #twitter-widget-0,
   .instagram-media,

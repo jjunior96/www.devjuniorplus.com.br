@@ -2,7 +2,6 @@
 /* eslint-disable no-undef */
 import React from 'react';
 
-// import { Home } from 'styled-icons/remix-fill/';
 import { Home } from 'styled-icons/typicons';
 import { UpArrowAlt } from 'styled-icons/boxicons-regular';
 import { AboutDotMe } from '@styled-icons/simple-icons';

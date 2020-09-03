@@ -3,6 +3,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import ToUp from '../components/ToUp';
 import RecommendedPosts from '../components/RecommendedPosts';
 import Comments from '../components/Comments';
 import SEO from '../components/seo';
@@ -30,6 +31,7 @@ const BlogPost = ({ data, pageContext }) => {
 
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <ToUp />
       </S.MainContent>
       <RecommendedPosts next={next} previous={previous} />
       <Comments url={post.fields.slug} title={post.frontmatter.title} />

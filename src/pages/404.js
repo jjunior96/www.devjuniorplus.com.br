@@ -24,7 +24,6 @@ const Container = styled.section`
 `;
 
 const Title = styled.h1`
-  /* background: var(--background-layout-main); */
   color: #fff;
   font-size: 120px;
   font-weight: bold;

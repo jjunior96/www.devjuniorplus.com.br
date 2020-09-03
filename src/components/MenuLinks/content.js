@@ -8,6 +8,16 @@ const links = [
     label: 'Sobre Mim',
     url: '/about/',
   },
+
+  {
+    label: 'Pesquisar',
+    url: '/search/',
+  },
+
+  {
+    label: 'Series',
+    url: '/series/',
+  },
 ];
 
 export default links;

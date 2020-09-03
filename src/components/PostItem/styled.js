@@ -35,6 +35,7 @@ export const PostItemWrapper = styled.section`
     align-items: flex-start;
     flex-direction: column;
     padding: 2.4rem 1.6rem;
+    border: 1px solid #4E516680;
   `};
 `;
 
