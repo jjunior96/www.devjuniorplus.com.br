@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 const SearchPage = () => {
   return (
     <Layout>
-      <SEO title="Search" description="Pesquise por algum post " />
+      <SEO title="Search" description="Pesquise por algum post" />
       <Search />
     </Layout>
   );
