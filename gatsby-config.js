@@ -50,7 +50,7 @@ module.exports = {
             options: {
               maxWidth: 960,
               quality: 90,
-              disableBgImageOnAlpha: false,
+              disableBgImageOnAlpha: true,
               linkImagesToOriginal: false,
             },
           },
