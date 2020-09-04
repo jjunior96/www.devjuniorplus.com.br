@@ -38,8 +38,9 @@ collections:
             [
               { label: 'React', value: '#7b2cbf' },
               { label: 'JS', value: '#ffbe0b' },
-              { label: 'Dev', value: '#3a86ff' },
-              { label: 'Misc', value: '#bf2c2c' },
+              { label: 'TS', value: '#3a86ff' },
+              { label: 'Dev', value: '#011627' },
+              { label: 'Misc', value: '#fb5607' },
               { label: 'Books', value: '#2cbf33' },
               { label: 'CSS', value: '#ff006e' },
             ],
