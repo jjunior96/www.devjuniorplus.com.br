@@ -28,7 +28,7 @@ collections:
           label: 'Category',
           name: 'category',
           widget: 'select',
-          options: ['react', 'js', 'dev', 'misc', 'books', 'css'],
+          options: ['react', 'js', 'ts', 'dev', 'misc', 'books', 'css'],
         }
       - {
           label: 'Background',
