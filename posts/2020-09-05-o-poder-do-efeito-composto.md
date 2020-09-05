@@ -21,9 +21,9 @@ Toda essa falta de tempo e gratificações instantâneas influencia diretamente 
 No mundo dos investimentos, é comum o conceito de efeito composto, porém, para a grande maioria das pessoas, é um termo pouco conhecido.
 
 A fórmula dos **juros compostos**:	
-$$
-M = C (1 + i)ˆt
-$$
+<mark>M = C (1 + i)ˆt</mark>
+
+<br />
 *Onde <mark>M = Montante</mark>, <mark>C = Capital investido</mark>, <mark>i = Taxa de juros</mark> e <mark>t = Tempo</mark>.*
 
 Se o capital investido (C) e a taxa de juros (i) forem altos, sabemos que o retorno deverá ser alto. Porém, o mais importante nessa fórmula, não são essas variáveis, e sim o **tempo (t)**.
@@ -38,33 +38,35 @@ Exemplo:
 
 Um investidor aplicou R$ 10.000 em um fundo de investimento que rende 10% ao ano (a.a). Qual será o retorno para o investidor após 2 anos?
 
-M = ?, C = 10.000, i = 0,1 e t = 2
-$$
-M = C(1 + i)ˆt \
-M = 10.000(1 + 0,1)ˆ2 \
-M = 10.000(1,1)ˆ2 \
-M = 10.000 . 1,21 \
-M = 12.100 \
-$$
-
-```
-
-```
+> M = ?, 
+>
+> C = 10.000, 
+>
+> i = 0,1 
+>
+> t = 2
+>
+> M = C(1 + i)ˆt \
+> M = 10.000(1 + 0,1)ˆ2 \
+> M = 10.000(1,1)ˆ2 \
+> M = 10.000 . 1,21 \
+> M = 12.100 
 
 ### Agora, imagine que esse investidor deixou o dinheiro investido por 10 anos.
 
-M = ?, C = 10.000, i = 0,1 e t = 10
-$$
-M = C(1 + i)ˆt \
-M = 10.000(1 + 0,1)ˆ2 \
-M = 10.000(1,1)ˆ2 \
-M = 10.000 . 2,59 \
-M = 25.937 \
-$$
-
-```
-
-```
+> M = ?
+>
+> C = 10.000 
+>
+> i = 0,1 
+>
+> t = 10
+>
+> M = C(1 + i)ˆt \
+> M = 10.000(1 + 0,1)ˆ2 \
+> M = 10.000(1,1)ˆ2 \
+> M = 10.000 . 2,59 \
+> M = 25.937 
 
 **A diferença e bastante acentuada a medida que o tempo avança.**
 
