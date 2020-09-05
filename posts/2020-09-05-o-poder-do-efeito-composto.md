@@ -24,7 +24,8 @@ A fórmula dos **juros compostos**:
 <mark>M = C (1 + i)ˆt</mark>
 
 <br />
-*Onde <mark>M = Montante</mark>, <mark>C = Capital investido</mark>, <mark>i = Taxa de juros</mark> e <mark>t = Tempo</mark>.*
+
+Onde **M = Montante**, **C = Capital investido**, **i = Taxa de juros** e **t = Tempo**.
 
 Se o capital investido (C) e a taxa de juros (i) forem altos, sabemos que o retorno deverá ser alto. Porém, o mais importante nessa fórmula, não são essas variáveis, e sim o **tempo (t)**.
 
