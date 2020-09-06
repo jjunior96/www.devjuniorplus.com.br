@@ -29,7 +29,7 @@ export const PostTitle = styled.h1`
 
 export const PostDescription = styled.h2`
   font-size: 2.4rem;
-  font-weight: 200;
+  font-weight: 300;
   padding: 0 1.4rem;
 
   ${media.lessThan('large')`
@@ -53,7 +53,7 @@ export const MainContent = styled.section`
   margin: auto;
   max-width: 88rem;
   padding: 2rem 5rem;
-  
+
   ${media.lessThan('large')`
     padding: 2.4rem 1.6rem;
     max-width: 100%;
@@ -74,7 +74,7 @@ export const MainContent = styled.section`
     line-height: 3rem;
     letter-spacing: 0.1rem;
     padding: 0 1.4rem;
-    
+
     ${media.lessThan('large')`
       padding: 0 1.6rem;
       word-break: break-word;
@@ -91,7 +91,7 @@ export const MainContent = styled.section`
   h5 {
     margin: 2.4rem auto 1.6rem;
   }
-  ul{
+  ul {
     list-style: disc;
   }
 
@@ -110,6 +110,7 @@ export const MainContent = styled.section`
   li {
     code {
       word-wrap: break-word;
+      border-radius: 4px;
     }
   }
   img {
@@ -119,7 +120,7 @@ export const MainContent = styled.section`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
-    
+
     ${media.lessThan('large')`
       padding: 0 1.6rem;
   `}
@@ -127,10 +128,10 @@ export const MainContent = styled.section`
   blockquote {
     color: var(--post-color);
     border-left: 0.5rem solid var(--hightlight-quote);
-    padding: 1.2rem 2.4rem .1rem;
+    padding: 1.2rem 2.4rem 0.1rem;
     margin: 3.2rem auto;
     background-color: var(--background-blockquote);
-    border-radius: 4px; 
+    border-radius: 4px;
   }
   hr {
     border: none;
@@ -141,7 +142,7 @@ export const MainContent = styled.section`
     align-items: center;
 
     &::before {
-      content: "...";
+      content: '...';
       color: #fff;
       font-size: 3.2rem;
       letter-spacing: 0.6em;
@@ -165,30 +166,27 @@ export const MainContent = styled.section`
   }
   h1 {
     font-size: 3.2rem;
-    
+
     ${media.lessThan('large')`
       font-size: 2.8rem;
   `}
   }
   h2 {
     font-size: 2.6rem;
-    
+
     ${media.lessThan('large')`
-      font-size: 2.2rem;
+      font-size: 2.2rem !important;
   `}
   }
   h3 {
     font-size: 2rem;
-    
+
     ${media.lessThan('large')`
       font-size: 1.8rem;
   `}
   }
   h4 {
     font-size: 1.6rem;
-    /* ${media.lessThan('large')`
-      padding: 0;
-  `} */
   }
   h5 {
     font-size: 1.2rem;
@@ -197,7 +195,7 @@ export const MainContent = styled.section`
     font-weight: 700;
   }
 
-  mark{
+  mark {
     background-color: #767b91;
     padding: 0.3rem;
     border-radius: 4px;
@@ -228,10 +226,12 @@ export const MainContent = styled.section`
   /* Código */
   .gatsby-highlight {
     padding: 0 1.3rem 2rem;
+    border-radius: 4px;
 
     ${media.lessThan('large')`
       padding: 1rem 1.6rem;
       max-width: 100%;
+      border-radius: 4px;
     `}
   }
 
