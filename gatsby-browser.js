@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-undef */
 import 'lazysizes';
 import React from 'react';
@@ -6,9 +8,17 @@ import SwUpdater from './src/components/SwUpdater';
 
 require('prismjs/themes/prism-dracula.css');
 
+if (typeof window !== 'undefined') {
+  require('smooth-scroll')('a[href*="#"]', {
+    speed: 200,
+    offset: 66,
+  });
+}
+
 function onServiceWorkerUpdateReady() {
   const root = document.createElement('div');
   document.body.appendChild(root);
+  console.log('SW Asks for update!');
 
   ReactDOM.render(<SwUpdater />, root);
 }
