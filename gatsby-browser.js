@@ -8,13 +8,6 @@ import SwUpdater from './src/components/SwUpdater';
 
 require('./src/styles/prims-theme/dracula/prism-dracula.css');
 
-if (typeof window !== 'undefined') {
-  require('smooth-scroll')('a[href*="#"]', {
-    speed: 200,
-    offset: 66,
-  });
-}
-
 function onServiceWorkerUpdateReady() {
   const root = document.createElement('div');
   document.body.appendChild(root);
