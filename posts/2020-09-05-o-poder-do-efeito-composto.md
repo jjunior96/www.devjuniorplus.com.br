@@ -1,6 +1,6 @@
 ---
 title: "O Poder do Efeito Composto "
-description: Entendendo os efeitos do efeito composto.
+description: Entendendo o efeito composto.
 date: 2020-09-05 11:06:36
 image: assets/images/compound-effect.jpg
 category: books
