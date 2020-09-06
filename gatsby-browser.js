@@ -6,7 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SwUpdater from './src/components/SwUpdater';
 
-require('prismjs/themes/prism-dracula.css');
+require('./src/styles/prims-theme/dracula/prism-dracula.css');
 
 if (typeof window !== 'undefined') {
   require('smooth-scroll')('a[href*="#"]', {

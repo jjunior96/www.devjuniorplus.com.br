@@ -17,7 +17,6 @@ export const NotificationWrapper = styled.div`
   border-radius: 4px;
   animation: moveUp 0.5s ease-in-out both;
   box-shadow: 0 10px 10px #313240;
-  cursor: pointer;
 
   @keyframes moveUp {
     0% {
@@ -26,6 +25,12 @@ export const NotificationWrapper = styled.div`
     100% {
       bottom: 60px;
     }
+  }
+
+  &:hover {
+    box-shadow: 0 8px 14px #2a2b39;
+    color: var(--color-link-hover);
+    cursor: pointer;
   }
 
   ${media.lessThan('large')`
