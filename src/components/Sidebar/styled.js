@@ -6,12 +6,17 @@ export const SidebarWrapper = styled.aside`
   align-items: center;
   flex-direction: column;
   background-color: var(--background-profile-primary);
-  height: 100vh;
+  margin: 2rem 2rem;
+  height: 95vh;
   position: fixed;
   text-align: center;
-  width: 28rem;
+  width: 26rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px #313240;
 
   ${media.lessThan('large')`
+    margin: 0;
+    border-radius: 0;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +32,7 @@ export const SidebarWrapper = styled.aside`
 export const SidebarEmailLink = styled.section`
   position: fixed;
   bottom: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   padding: 1rem 0;
 
   border-bottom: 1px solid #ff7f50;
