@@ -93,6 +93,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     line-height: 1;
     -webkit-font-smoothing: antialiased !important;
+    font-style: normal;
   }
   ol, ul {
     list-style: none;
