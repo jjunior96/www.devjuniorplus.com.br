@@ -16,14 +16,16 @@ background: "#fb5607"
 * [Onde encontrar mentores? ](#onde-encontrar-mentores)
 * [Como estudar/aprender?](#como-estudar)
 * [Como fixar o aprendizado?](#como-fixar-o-aprendizado)
-
 * [Qual a diferença entre ser produtivo e ser ocupado?](#ser-produtivo-ocupado)
 * [Como ser produtivo?](#como-ser-produtivo)
 * [O que fazer quando não estiver motivado?](#o-que-fazer-quando-nao-estiver-motivado)
 * [Como concluir as tarefas, estando sem motivação?](#como-concluir-as-tarefas)
 * [Foque suas energias em um ponto](#foque-suas-energias-em-um-ponto)
+* [Conclusão](#conclusao)
 
 <br />
+
+# Aprendendo a aprender com Diego, Thaíssa e Robson Marques.
 
 <h2 id="introducao">Introdução</h2>
 
@@ -125,7 +127,6 @@ Devemos curtir o caminho que estamos percorrendo, pois estamos acumulando conhec
 # Produtividade, gestão de tempo e foco com Zeno Rocha
 
 
-
 <h2 id="ser-produtivo-ocupado">Qual a diferença entre ser produtivo e ser ocupado?</h2>
 
 Precisamos saber o propósito do trabalho que estamos fazendo. Sempre que iniciamos um projeto, devemos saber onde queremos chegar, quais objetivos queremos alcançar e focar para entregar o máximo de valor no final.
@@ -202,7 +203,7 @@ Não precisamos ler toda a documentação de uma linguagem para começarmos a cr
 
 <hr/>
 
-## Conclusão
+<h2 id="conclusao">Conclusão</h2>
 
 Essas forma minhas anotações e reflexões do primeiro dia de Expansion Week, muitos insights passados pelo Diego Fernandes, Thaíssa Candella, Robson Marques e Zeno Rocha! 
 
