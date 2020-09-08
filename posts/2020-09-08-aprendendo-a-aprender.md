@@ -9,15 +9,15 @@ background: "#fb5607"
 * [Introdução](#introducao)
 * [Criando seus objetivos](#criando-seus-objetivos)
 * [O que estudar/aprender?](#o-que-estudar)
-  		- [Onde encontrar mentores? ](#onde-encontrar-mentores)
+* [Onde encontrar mentores? ](#onde-encontrar-mentores)
 * [Como estudar/aprender?](#como-estudar)
 * [Como fixar o aprendizado?](#como-fixar-o-aprendizado)
 
 <br />
 
-<h2 id="introducao">Introdução</h2>
-
 ## Primeiro dia
+
+<h2 id="introducao">Introdução</h2>
 
 Estamos na era da informação, temos milhares de conteúdos, sobre praticamente todos os assuntos e áreas do conhecimento. Hoje, não passamos por um problema que existia à anos atrás: a escassez de informação, todo esse excesso de informação, na verdade criou um novo problema, **a escassez de foco e atenção**.
 
