@@ -205,5 +205,5 @@ Não precisamos ler toda a documentação de uma linguagem para começarmos a cr
 
 <h2 id="conclusao">Conclusão</h2>
 
-Essas forma minhas anotações e reflexões do primeiro dia de Expansion Week, muitos insights passados pelo Diego Fernandes, Thaíssa Candella, Robson Marques e Zeno Rocha! 
+Essas foram minhas anotações e reflexões do primeiro dia de Expansion Week, muitos insights passados pelo Diego Fernandes, Thaíssa Candella, Robson Marques e Zeno Rocha! 
 
