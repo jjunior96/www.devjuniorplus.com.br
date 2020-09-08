@@ -6,6 +6,10 @@ image: assets/images/0.jpeg
 category: misc
 background: "#fb5607"
 ---
+
+![Expansion Week](assets/images/capa.jpg "Expansion Week")
+
+## Primeiro dia
 * [Introdução](#introducao)
 * [Criando seus objetivos](#criando-seus-objetivos)
 * [O que estudar/aprender?](#o-que-estudar)
@@ -13,9 +17,13 @@ background: "#fb5607"
 * [Como estudar/aprender?](#como-estudar)
 * [Como fixar o aprendizado?](#como-fixar-o-aprendizado)
 
-<br />
+* [Qual a diferença entre ser produtivo e ser ocupado?](#ser-produtivo-ocupado)
+* [Como ser produtivo?](#como-ser-produtivo)
+* [O que fazer quando não estiver motivado?](#o-que-fazer-quando-nao-estiver-motivado)
+* [Como concluir as tarefas, estando sem motivação?](#como-concluir-as-tarefas)
+* [Foque suas energias em um ponto](#foque-suas-energias-em-um-ponto)
 
-## Primeiro dia
+<br />
 
 <h2 id="introducao">Introdução</h2>
 
@@ -111,3 +119,90 @@ Devemos curtir o caminho que estamos percorrendo, pois estamos acumulando conhec
 > Fluência = Conhecimento + prática
 
 `DICA: Caso você não conheça o professor Pierluigi Piazzi, vale a pesquisa. Ele é referência nesse assunto.`
+
+<hr />
+
+# Produtividade, gestão de tempo e foco com Zeno Rocha
+
+
+
+<h2 id="ser-produtivo-ocupado">Qual a diferença entre ser produtivo e ser ocupado?</h2>
+
+Precisamos saber o propósito do trabalho que estamos fazendo. Sempre que iniciamos um projeto, devemos saber onde queremos chegar, quais objetivos queremos alcançar e focar para entregar o máximo de valor no final.
+
+Essa é basicamente a diferença entre estar ocupado ou estar produtivo. Com base no objetivo atual, sabemos que temos prioridade por um determinado assunto
+
+<br />
+
+<h2 id="como-ser-produtivo">Como ser produtivo?</h2>
+
+> É possivel ser produtivo 100% do tempo?
+
+Muitos de nós temos a sensação que existem profissionais que são produtivos 100% do tempo, mas precisamos entender que na prática, isso não existe. 
+
+O diferencial de cada individual são seus hábitos, pois no final das contas, todos nós temos as mesmas 24h por dia, portanto, cabe a cada um de nós sabermos a melhor forma de utiliza-las.
+
+No caminho, vamos nos deparar com várias variáveis e precisamos separa-las. Podemos dividir essas as variáveis em duas categorias: as que controlamos e as que não controlamos.
+
+### Variáveis que controlamos
+
+Controlamos nosso foco, nossos pensamentos, nossa alimentação. Em outras palavras, controlamos tudo aquilo que depende de nós mesmos. São essas variáveis que devemos focar em melhorar a cada dia, dedicar mais tempo e atenção, pois no final, são elas que realmente importam.
+
+### Variáveis que NÃO controlamos
+
+Não controlamos a economia, a política, os pensamentos dos outros, as atitudes alheias. Tudo aquilo que não depende de nós, não temos como controlar. Portanto não devemos focar nesse tipo de variável, pois, por mais que tentamos muda-las, não somos capazes. Estão além do nosso alcance.
+
+<br />
+
+<h2 id="o-que-fazer-quando-nao-estiver-motivado">O que fazer quando não estiver motivado?</h2>
+
+Antes de falarmos sobre motivação, precisamos entender o que é de fato **motivação**. 
+
+> Ato ou efeito de motivar, de despertar o interesse por algo.
+
+Esse é o significado de motivação, segundo o dicionário. A motivação é uma forma incrível de nos tirar do lugar onde estamos e nos fazer ir além. Através dela, começamos a estudar assuntos diferentes que de alguma forma, despertaram nosso interesse. E isso é espetacular!
+
+Porém, a motivação não dura para sempre. E isso nos gera um grande problema: uma vez que estamos acostumados a agir com motivação, quando não a temos, ficamos paralisados. 
+
+Para superar esse problema, precisamos apenas lembrar:
+
+> Ninguém se mantêm motivado durante um ano inteiro!
+
+<br />
+
+<h2 id="como-concluir-as-tarefas">Como concluir as tarefas, estando sem motivação?</h2>
+
+Jocko Willink é um oficial aposentado, que serviu nos SEALs da Marinha Americana. Escreveu vários livros sobre disciplina e os aprendizados que recebeu nos anos servindo a marinha. 
+
+> Disciplina é igual a liberdade.
+>
+> -Jocko Willink
+
+Temos uma idéia muitas vezes incorreta sobre disciplina, onde precisamos seguir regras impostas que não vão de acordo com o que desejamos. Porém, disciplina é muito mais do que isso. Disciplina é algo indispensável quando queremos alcançar um objetivo, pois é a soma dos esforços diários que vão nos levar a concluir as tarefas.
+
+O que precisamos de fato é disciplina, não motivação. Uma vez traçado onde queremos chegar, precisamos criar um plano de ação e executa-lo todos os dias, mesmo nos dias que estamos cansados, nos dias que não temos tempo ou nos dias que não estamos animados. E acredite, esses dias irão chegar, e quando chegarem, é a disciplina que vai fazer a diferença.
+
+Exemplo: 
+
+Você tem que aprender uma nova tecnologia que não gosta, para resolver um problema específico. Para melhorar esse cenário, durante o aprendizado dessa tecnologia, crie projetos pessoais, algo que goste. Dessa forma, você irá ancorar algo que não gosta em algo que gosta.
+
+<br />
+
+<h2 id="foque-suas-energias-em-um-ponto">Foque suas energias em um ponto</h2>
+
+Grande parte do tempo, gastamos energia em vários pontos diferentes, estudando várias tecnologias, escolhendo frameworks e etc. 
+
+Porém, nosso tempo é um recurso limitado. Sendo assim, precisamos focar em qual problema queremos resolver e a partir daí, procurar as ferramentas que irão nos auxiliar na resolução desse problema (tecnologias, frameworks...).
+
+> Tecnologia nada mais é que uma ferramenta para nos auxiliar na resolução de problemas.
+
+Não existe tecnologia melhor que outra, existem problemas diferentes que podem ser resolvidos de formas distintas.
+
+Não precisamos ler toda a documentação de uma linguagem para começarmos a criar nossos projetos. Ninguém sabe tudo! Estamos em constante aprendizado. O que precisamos de fato é dar o primeiro passo e começar! Cada empresa "gigante" hoje, começou "pequena" um dia, assim como cada projeto com milhares de estrelas no Github hoje, começou com nenhuma estrela um dia.
+
+<hr/>
+
+## Conclusão
+
+Essas forma minhas anotações e reflexões do primeiro dia de Expansion Week, muitos insights passados pelo Diego Fernandes, Thaíssa Candella, Robson Marques e Zeno Rocha! 
+
