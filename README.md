@@ -10,5 +10,5 @@ Currently using:
 - [GraphQL](https://graphql.org)
 - [Netlify](https://www.netlify.com)
 
-Check my blog [here](https://alvesjunior.netlify.app/).
+➡️ Check my blog [here](https://www.devjuniorplus.com.br/).
 
