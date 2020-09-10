@@ -172,17 +172,17 @@ export const MainContent = styled.section`
   `}
   }
   h2 {
-    font-size: 2.6rem;
+    font-size: 3.2rem;
 
     ${media.lessThan('large')`
-      font-size: 2.2rem !important;
+      font-size: 2.8rem !important;
   `}
   }
   h3 {
-    font-size: 2rem;
+    font-size: 2.8rem;
 
     ${media.lessThan('large')`
-      font-size: 1.8rem;
+      font-size: 2.4rem;
   `}
   }
   h4 {
