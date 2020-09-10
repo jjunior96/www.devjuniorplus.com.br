@@ -1,6 +1,6 @@
 ---
-title: Aprendendo a aprender
-description: Vamos conferir o que rolou no primeiro dia de Expansion Week
+title: Expansion Week - Dia 1
+description: Aprendendo a aprender & Produtividade
 date: 2020-09-08 10:08:26
 image: assets/images/0.jpeg
 category: misc
