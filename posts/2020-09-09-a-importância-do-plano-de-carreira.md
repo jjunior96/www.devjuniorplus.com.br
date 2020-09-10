@@ -1,6 +1,6 @@
 ---
-title: A importância do plano de carreira
-description: Precisamos ter um plano de carreira para tomarmos os melhores caminhos
+title: Expansion Week dia 2
+description: Plano de carreira & visibilidade no LinkedIn
 date: 2020-09-09 10:12:36
 image: assets/images/capa-0.jpg
 category: misc
@@ -21,6 +21,11 @@ background: "#fb5607"
 * [Por que não é fácil encontrar Tech Leads?](#por-que-nao-e-facil-encontrar-tech-leads)
 * [Quem não é visto, não é lembrado](#quem-nao-visto)
 * [Encontrando o lugar certo](#encontrando-o-lugar-certo)
+* [Estratégia de visibilidade no LinkedIn com Rafael Pimenta e Andreza Maia](#estrategia-visibilidade)
+* [Compartilhar conteúdo relevante](#compartilhar-conteudo)
+* [E por que eu deveria compartilhar sobre esse assunto, se já existem tantas outras pessoas fazendo o mesmo?](#porque-deveria-compartilhar)
+* [Dicas técnicas do LinkedIn](#dicas)
+* [Conclusão](#conclusao)
 
 <h2 id="introducao">Introdução<h2/>
 
@@ -121,3 +126,84 @@ Porém, precisamos antes de mais nada, entender o *fit cultural* dessa empresa, 
 O que podemos fazer é pesquisar sobre a empresa de interesse. E uma boa maneira de fazermos isso é perguntando à funcionários que trabalham nessa empresa ou que já trabalharam, trocarmos experiências e conhecimentos acima de tudo.
 
 <hr />
+
+
+<h2 id="estrategia-visibilidade">Estratégia de visibilidade no LinkedIn com Rafael Pimenta e Andreza Maia</h2>
+
+Antes de mais nada, por que deveríamos nos expor no LinkedIn?
+
+Simples, pois é lá onde estão grande parte das oportunidades, onde estão a maioria das empresas e é lá que está a sua chance de mostrar sesu talentos.
+
+E mais uma vez temos a frase "quem não é visto, não é lembrado".
+
+Precisamos mostrar o que sabemos fazer para o mundo, assim, todos podem conhecer nosso trabalho e nossas competências sem mesmo nos conhecer pessoalmente. E isso abre grandes oportunidades profissionais.
+
+<br />
+
+<h2 id="compartilhar-conteudo">Compartilhar conteúdo relevante</h2>
+
+Uma das formas de se destacar dentro do LinkedIn é compartilhar conteúdos relevantes. Desta forma, agregamos valor a nossa rede de contatos, fortalecendo nosso networking.
+
+E consequentemente, vamos nos tornando uma referência no assunto onde somos especializamos, começamos a sermos vistos como autoridade no assunto.
+
+<br />
+
+<h2 id="porque-deveria-compartilhar">E por que eu deveria compartilhar sobre esse assunto, se já existem tantas outras pessoas fazendo o mesmo?</h2>
+
+Essa é uma dúvida que vem nossas mentes muitas vezes. Mas a resposta é simples: sempre terá algum do outro lado que precisa de uma ajuda que só você pode transmitir. 
+
+Mesmo que seja um conteúdo que está em alta, nossos somos únicos, temos vivências únicas portanto, sempre temos algo a agregar para alguém, seja com nossa forma diferente de explicar ou de dar exemplos.
+
+<br />
+
+<h2 id="dicas">Dicas técnicas do LinkedIn</h2>
+
+### O que colcocar no campo de formação/cursos?
+
+Colocar habilidades que dominamos, não apenas certificados.
+
+Descrever sobre o curso, o que aprendemos, onde aplicamos os conhecimentos adquiridos e o link dos projetos no Github.
+
+`Cursos gratuitos também entram nessa categoria.`
+
+### Bootcamps, devemos colocar em formação acadêmica ou cursos?
+
+Colocar em Formação Acadêmica, pois o recrutador encontrar com mais facilidade.
+
+### Com que frequência devemos postar no LinkedIn?
+
+Pelo menos um post por semana, pois é a frenquência e consistência serão grandes aliados para seu perfil ser visitado.
+
+`Devemos lembrar que a qualidade das postagens é algo indispensável.`
+
+### Se destacar na multidão
+
+Assim como você, existem várias pessoas em busca de oportunidades dentro do LinkedIn, portanto, além das dicas acima, precisamos achar uma maneira criativa de nos destacar em meio a multidão. Seja na forma de criar as postagens, na forma de ensinar algo ou até mesmo na maneira de conversar com suas conexões. 
+
+`Lembre-se, mais do que conexões profissionais, são pessoas assim como você.`
+
+### Interagir com a marca/empresa
+
+Na busca de uma contratação, além de bons salários e benefícios, o fit cultural é algo extremamente importante.
+
+Portanto devemos interagir com a empresa, conversar com funcionários, ex-funcionários. E o LinkedIn é perfeito para isso. Seja com um problema que teve com a empresa X e a forma que foi atendido, a maneira que solucionaram seu problema.
+
+`Grande exemplo disso é o Nubank. Veja no LinkedIn a forma que eles respondem seus clientes. Simplesmente incrível.`
+
+### Colocar ou não GIFs nas postagens do LinkedIn?
+
+Tanto o Rafa quanto a Andreza utilizam GIFs em 100% de suas postagens, então... SIM! Podemos (e devemos) colocar!
+
+<hr>
+
+<h2 id="conclusao">Conclusão</h2>
+
+Essas foram minhas anotações do segundo dia de Expansion Week. 
+
+Planos de carreira e LinkedIn são assuntos importantíssimos que devemos ter conhecimento para nos destacarmos no mercado. 
+
+Grande abraço e até próxima!
+
+
+
+
