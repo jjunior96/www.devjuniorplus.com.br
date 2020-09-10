@@ -1,5 +1,5 @@
 ---
-title: Expansion Week dia 2
+title: Expansion Week - Dia 2
 description: Plano de carreira & visibilidade no LinkedIn
 date: 2020-09-09 10:12:36
 image: assets/images/capa-0.jpg
