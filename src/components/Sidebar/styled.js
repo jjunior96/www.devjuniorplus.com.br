@@ -6,11 +6,11 @@ export const SidebarWrapper = styled.aside`
   align-items: center;
   flex-direction: column;
   background-color: var(--background-profile-primary);
-  margin: 2rem 2rem;
+  margin: 2rem;
   height: 95vh;
   position: fixed;
   text-align: center;
-  width: 26rem;
+  width: 28rem;
   border-radius: 20px;
   box-shadow: 0 10px 10px #313240;
 
