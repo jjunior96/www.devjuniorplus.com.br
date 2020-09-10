@@ -34,7 +34,7 @@ export const ProfileLink = styled(AniLink)`
 `;
 
 export const ProfileAuthor = styled.h1`
-  margin-top: 0.8rem;
+  margin-top: 1.2rem;
   font-size: 2.4rem;
   letter-spacing: 2px;
   font-family: var(--font-title-main);
