@@ -32,7 +32,7 @@ background: "#fb5607"
 
 <h2 id="introducao">Introdução</h2>
 
-Dando continuidade às postagens sobre a Expansion Week, na primeira parte desse artigo, vamos falar sobre **Desenvolvimento de marca pessoal** com Thaíssa Cadella, Loiane Groner e Lucas Santos. 
+Dando continuidade às postagens sobre a Expansion Week, na primeira parte desse artigo, vamos falar sobre **Desenvolvimento de marca pessoal** com Thaíssa Candella, Loiane Groner e Lucas Santos. 
 
 Na segunda parte o assunto será **Criatividade** com Mayk Brito, Tiago Luchtenberg e Calebe Bezerra.
 
