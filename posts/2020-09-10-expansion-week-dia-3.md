@@ -134,9 +134,9 @@ Como já sabemos, não criamos algo do nada. Sempre criamos algo, conectando id�
 
 ### E como podemos adquirir inspirações?
 
-Eu particularmente indico muito o <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a> ou o <a href="http://behance.net/" target="_blank" rel="noopener noreferrer">Behance</a>. Mas existem várias outros sites além desses.
+Eu particularmente indico muito o <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a> ou o <a href="http://behance.net/" target="_blank" rel="noopener noreferrer">Behance</a>. Mas existem vários outros sites além desses.
 
-Mesmo dar uma volta no parque, uma caminhada ou pedalada, com certeza irá te trazer vários *insights*.
+Até mesmo dar uma volta no parque, uma caminhada ou pedalada, com certeza irá te trazer vários *insights*.
 
 <br />
 
