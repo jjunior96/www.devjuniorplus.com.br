@@ -7,7 +7,7 @@ module.exports = {
     position: `Javascript Developer`,
     description: `Escrevo sobre código e livros.`,
     author: `jjunior`,
-    siteUrl: `https://alvesjunior.netlify.app`,
+    siteUrl: `https://devjuniorplus.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
