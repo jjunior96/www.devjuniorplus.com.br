@@ -333,27 +333,27 @@ Precisamos criar ambientes propícios para acasos positivos!
 
 <h2 id="livros-importantes">Livros importantes que foram citados:</h2>
 
-<a href="https://www.amazon.com.br/gp/product/8576082675/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8576082675&linkId=5220bb641853178550055e56d4998136" target="_blank" rel="noopener noreferrer">Código Limpo - Português (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/8576082675/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8576082675&linkId=5220bb641853178550055e56d4998136" target="_blank" rel="noopener noreferrer">Código Limpo - Português (afiliado)</a>.
 
-<a href="https://www.amazon.com.br/gp/product/B001GSTOAM/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B001GSTOAM&linkId=4de4f8331ee23a2310a2447388937e05" target="_blank" rel="noopener noreferrer">Clean Code - Inglês (afilidado)</a>.
-
-<br />
-
-<a href="https://www.amazon.com.br/gp/product/8550802328/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8550802328&linkId=6ebad1b8fcfbcc8bd45a7b3fc0f55d74" target="_blank" rel="noopener noreferrer">Trabalho Focado - Português (afilidado)</a>.
-
-<a href="https://www.amazon.com.br/gp/product/B00X7D8X8S/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B00X7D8X8S&linkId=8338b7d369bc86044cd1a769daa7c2c0" target="_blank" rel="noopener noreferrer">Deep Work - Inglês (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/B001GSTOAM/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B001GSTOAM&linkId=4de4f8331ee23a2310a2447388937e05" target="_blank" rel="noopener noreferrer">Clean Code - Inglês (afiliado)</a>.
 
 <br />
 
-<a href="https://www.amazon.com.br/gp/product/B07GJXQRZ2/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B07GJXQRZ2&linkId=dd84c81a615ebffae5915488298d1391" target="_blank" rel="noopener noreferrer">Por que nós dormimos - Português (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/8550802328/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8550802328&linkId=6ebad1b8fcfbcc8bd45a7b3fc0f55d74" target="_blank" rel="noopener noreferrer">Trabalho Focado - Português (afiliado)</a>.
 
-<a href="https://www.amazon.com.br/gp/product/B06ZZ1YGJ5/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B06ZZ1YGJ5&linkId=785b3219329ea9babb0fb151564f2d3e" target="_blank" rel="noopener noreferrer">Why We Sleep - Inglês (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/B00X7D8X8S/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B00X7D8X8S&linkId=8338b7d369bc86044cd1a769daa7c2c0" target="_blank" rel="noopener noreferrer">Deep Work - Inglês (afiliado)</a>.
 
 <br />
 
-<a href="https://www.amazon.com.br/gp/product/8504018024/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8504018024&linkId=0db83fa28edb249ebdcfcd34c846761e" target="_blank" rel="noopener noreferrer">Como fazer amigos e influenciar pessoas (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/B07GJXQRZ2/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B07GJXQRZ2&linkId=dd84c81a615ebffae5915488298d1391" target="_blank" rel="noopener noreferrer">Por que nós dormimos - Português (afiliado)</a>.
 
-<a href="https://www.amazon.com.br/gp/product/0671027034/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=0671027034&linkId=625b2549b746e5661cd0f021161def68" target="_blank" rel="noopener noreferrer">How to Win Friends and Influence People  - Inglês (afilidado)</a>.
+<a href="https://www.amazon.com.br/gp/product/B06ZZ1YGJ5/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=B06ZZ1YGJ5&linkId=785b3219329ea9babb0fb151564f2d3e" target="_blank" rel="noopener noreferrer">Why We Sleep - Inglês (afiliado)</a>.
+
+<br />
+
+<a href="https://www.amazon.com.br/gp/product/8504018024/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=8504018024&linkId=0db83fa28edb249ebdcfcd34c846761e" target="_blank" rel="noopener noreferrer">Como fazer amigos e influenciar pessoas (afiliado)</a>.
+
+<a href="https://www.amazon.com.br/gp/product/0671027034/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=jjunior9603-20&creative=9325&linkCode=as2&creativeASIN=0671027034&linkId=625b2549b746e5661cd0f021161def68" target="_blank" rel="noopener noreferrer">How to Win Friends and Influence People  - Inglês (afiliado)</a>.
 
 <hr />
 
