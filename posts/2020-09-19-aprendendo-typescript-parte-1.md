@@ -129,7 +129,7 @@ enum Colors {
 ### Any
 
 ```typescript
-// Qualquer coisa TERROR DO TS NAO É LEGAL!!!
+// Qualquer coisa TERROR DO TS, NÃO UTILIZAR!!
 let coisa: any; // ou let coisa;
 coisa = [1];
 coisa = "foo";
