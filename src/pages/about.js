@@ -38,7 +38,15 @@ const AboutPage = () => (
       <p>
         Fiz alguns cursos específicos sobre Gatsby, Javascript ES6+, GraphQL,
         mas na maior parte do tempo, estou lendo documentações e tentando
-        aprender algo novo. Atualmente estou focado em dominar o React.
+        aprender algo novo. Atualmente trabalho na{' '}
+        <a
+          href="https://smartenvios.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SmartEnvios
+        </a>{' '}
+        como Full Stack Developer.
       </p>
 
       <p>
@@ -51,7 +59,7 @@ const AboutPage = () => (
 
       <p>
         Nas horas vagas, além de ler, gosto de desenhar. Desenho desde criança,
-        dediquei muitas horas de minha vida aprendendo desenho. Em 2015 adquiri
+        dediquei alguns anos da minha vida aprendendo desenho. Em 2015 adquiri
         um mesa digitalizadora (era meu sonho) e comecei a estudar pintura
         digital.
       </p>
@@ -76,6 +84,8 @@ const AboutPage = () => (
         .
       </p>
       <img src={Image1} alt="Kratos" />
+
+      <hr />
 
       <h2>Contato</h2>
       <p>
