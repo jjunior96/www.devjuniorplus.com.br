@@ -19,8 +19,8 @@ background: "#3a86ff"
 * [Getters & Setters](#get-set)
 * [Abstract](#abstract)
 * [Interfaces](#interfaces)
-* [Propriedades opcionais](#propriedade-opcionais)
-* [Extender interfaces](#extender-interfaces)
+* [Propriedades opcionais](#propriedade-opcional)
+* [Estender interfaces](#estender-interfaces)
 * [Implements](#implements)
 * [Conclusão](#conclusao)
 
@@ -439,7 +439,7 @@ theLastOfUs.title; // "The Last of Us"
 
 <br />
 
-<h2 id="propriedade-opcional">Propriedades opcional</h2>
+<h2 id="propriedade-opcional">Propriedades opcionais</h2>
 
 ```typescript
 interface Game {
@@ -453,7 +453,7 @@ interface Game {
 
 <br />
 
-<h2 id="extender-interfaces">Extender interfaces</h2>
+<h2 id="estender-interfaces">Estender interfaces</h2>
 
 Semelhante as classes, as interfaces também podem estender de outras interfaces.
 
@@ -500,7 +500,7 @@ const leftBehind: DLC = {
 
 Posso estender uma classe de uma interface. 
 
-Como? Com o **implements**.
+Como? Com o `implements`.
 
 ```typescript
 interface Game {
