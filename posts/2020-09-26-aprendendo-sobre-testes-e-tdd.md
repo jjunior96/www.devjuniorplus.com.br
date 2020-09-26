@@ -1,5 +1,5 @@
 ---
-title: Aprendendo sobre testes e TDD
+title: TDD na pratica com Jest
 description: Vamos aprender sobre essa prática tão importante que é o TDD
 date: 2020-09-26 09:02:17
 image: assets/images/david-travis-wc6mj0krzgw-unsplash.jpg
