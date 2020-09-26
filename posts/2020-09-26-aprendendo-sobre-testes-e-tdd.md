@@ -322,6 +322,7 @@ Para um função extremamente simples, conseguimos cobrir muitos casos de testes
 Nesse post aprendemos um pouco sobre TDD, as motivações de escrevermos testes em nossos projetos, sejam pequenos ou, principalmente em grandes e aplicamos tudo isso na prática utilizando o Jest.
 
 Espero ter motivado você a escrever testes, caso ainda não fazia e continuar escrevendo, se já rodava testes em seus projetos.
+O código feito nesse post está no Github, <a href="https://github.com/jjunior96/test-exemple-blog" target="_blank" rel="noopener noreferrer">aqui</a>.
 
 Obrigado por ter lido até aqui! Grande abraço e até a próxima.
 
