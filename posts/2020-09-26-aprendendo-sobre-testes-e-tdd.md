@@ -20,6 +20,8 @@ background: "#011627"
 * [Iniciando nosso projeto](#projeto)
 * [Criando nosso primeiro teste](#criando-primeiro-teste)
 * [Melhorando nosso teste](#melhorando-teste)
+* [Finalizando nossos casos de testes](finalizando-testes)
+* [Conclusão](#conclusao)
 
 <br />
 
@@ -281,3 +283,45 @@ module.exports.sum = { number1, number2 } => {
   return int1 + int2;
 }
 ```
+<br />
+<h2 id="finalizando-testes">Finalizando nossos casos de testes</h2>
+
+Agora podemos apenas acrescentar testes para verificar se as entradas são Arrays, objetos ou sejam vazios.
+
+```javascript
+it('should throw an error if what is provided to the method connot be summed', () => {
+  expect(() => {
+    sum('', 2)
+  }).toThrowError();
+
+  // Não pode ser um array
+	expect(() => {
+    sum([2, 2])
+  }).toThrowError();
+  
+  // Não pode ser um objeto
+  expect(() => {
+    sum({})
+  }).toThrowError();
+  
+	 // Não pode ser passado vazio
+   expect(() => {
+    sum()
+ }).toThrowError();
+});
+```
+
+
+
+Para um função extremamente simples, conseguimos cobrir muitos casos de testes. XD
+
+<hr />
+
+<h2 id="conclusao">Conclusão</h2>
+
+Nesse post aprendemos um pouco sobre TDD, as motivações de escrevermos testes em nossos projetos, sejam pequenos ou, principalmente em grandes e aplicamos tudo isso na prática utilizando o Jest.
+
+Espero ter motivado você a escrever testes, caso ainda não fazia e continuar escrevendo, se já rodava testes em seus projetos.
+
+Obrigado por ter lido até aqui! Grande abraço e até a próxima.
+
