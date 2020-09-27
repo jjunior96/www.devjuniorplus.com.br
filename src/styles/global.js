@@ -75,7 +75,7 @@ const GlobalStyles = createGlobalStyle`
     --color-line-borders: #4E5166;
     --color-line-hr: #4E5166E6;
 
-    --background-blockquote: #767b9140;
+    --background-blockquote: #767b910d;
 
     /* Social Links BG */
     --background-social-links: #343643;
