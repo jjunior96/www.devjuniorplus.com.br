@@ -113,6 +113,11 @@ export const MainContent = styled.section`
       border-radius: 4px;
     }
   }
+  pre::-webkit-scrollbar {
+    ${media.lessThan('large')`
+      display: none !important;
+    `}
+  }
   img {
     display: block;
     max-width: 100%;
