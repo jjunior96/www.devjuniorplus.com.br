@@ -49,6 +49,10 @@ const GlobalStyles = createGlobalStyle`
     background-color: #e1e5ee;
   }
 
+  pre::-webkit-scrollbar {
+    height: 8px;
+  }
+
   :root {
     /* Layout */
     --background-layout-main: #383A47;
