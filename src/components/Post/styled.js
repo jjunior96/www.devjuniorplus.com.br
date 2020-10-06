@@ -256,4 +256,8 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+
+  .styled__ShareTitle-eCovnU {
+    margin-top: 6rem;
+  }
 `;
