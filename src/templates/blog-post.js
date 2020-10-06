@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import ToUp from '../components/ToUp';
 import RecommendedPosts from '../components/RecommendedPosts';
 import Comments from '../components/Comments';
+import Share from '../components/Share';
 import SEO from '../components/seo';
 
 import * as S from '../components/Post/styled';
@@ -14,6 +15,7 @@ const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
   const next = pageContext.nextPost;
   const previous = pageContext.previousPost;
+  const url = data.site.siteMetadata.siteUrl;
 
   return (
     <Layout>
@@ -32,8 +34,17 @@ const BlogPost = ({ data, pageContext }) => {
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ToUp />
+        <Share
+          socialConfig={{
+            config: {
+              url: `${url}${post.fields.slug}`,
+              title: post.frontmatter.title,
+            },
+          }}
+        />
       </S.MainContent>
       <RecommendedPosts next={next} previous={previous} />
+
       <Comments url={post.fields.slug} title={post.frontmatter.title} />
     </Layout>
   );
@@ -41,6 +52,11 @@ const BlogPost = ({ data, pageContext }) => {
 
 export const query = graphql`
   query Post($slug: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
