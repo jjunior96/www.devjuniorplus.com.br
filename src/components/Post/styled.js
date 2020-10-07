@@ -110,7 +110,7 @@ export const MainContent = styled.section`
   li {
     code {
       word-wrap: break-word;
-      border-radius: 4px;
+      border-radius: 8px;
     }
   }
   pre::-webkit-scrollbar {
@@ -122,6 +122,15 @@ export const MainContent = styled.section`
     display: block;
     max-width: 100%;
   }
+  .gatsby-resp-image-wrapper {
+    border-radius: 8px !important;
+    overflow: hidden;
+  }
+  .gatsby-highlight {
+    border-radius: 8px !important;
+    overflow: hidden;
+  }
+
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
