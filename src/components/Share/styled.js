@@ -10,7 +10,6 @@ export const ShareWrapper = styled.div`
   margin: 0 auto;
   width: 100%;
   height: 4rem;
-  /* border: 1px solid var(--hightlight-quote); */
 `;
 
 export const ShareTitle = styled.h2`
