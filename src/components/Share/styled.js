@@ -2,14 +2,29 @@ import styled from 'styled-components';
 import media from 'styled-media-query';
 
 export const ShareWrapper = styled.div`
+  right: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0 3rem 3.2rem;
+  z-index: 9999;
   display: flex;
-  padding: 5rem 6.4rem 3rem;
-  align-items: center;
-  max-width: 70rem;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 0 auto;
-  width: 100%;
-  height: 4rem;
+  margin-top: 12%;
+
+  ${media.lessThan('large')`
+    flex-direction: row;
+    margin-top: 10rem;
+    position: relative;
+    padding: 5rem 6.4rem 3rem;
+    align-items: center;
+    max-width: 70rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    height: 4rem;
+  `};
 `;
 
 export const ShareTitle = styled.h2`
@@ -45,14 +60,16 @@ export const ShareLink = styled.a`
 `;
 
 export const IconWrapper = styled.div`
-  width: 32px;
-  height: 32px;
-  padding: 4px;
-  border-radius: 50%;
-  transition: background-color 0.5s;
+  margin-bottom: 8px;
+  opacity: 0.5;
+  transition: opacity 0.5s;
 
   &:hover {
-    background-color: var(--color-link-hover);
-    color: var(--background-profile-primary);
+    opacity: 1;
   }
+
+  ${media.lessThan('large')`
+    margin-left: 8px;
+    opacity: 1;
+  `}
 `;

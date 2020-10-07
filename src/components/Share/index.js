@@ -1,21 +1,3 @@
-// import React from 'react';
-
-// import * as S from './styled';
-
-// const Share = () => (
-//   <S.ShareWrapper>
-//     <S.ShareList>
-//       <S.ShareItem>
-//         <S.ShareLink>
-//           <S.IconWrapper>.</S.IconWrapper>
-//         </S.ShareLink>
-//       </S.ShareItem>
-//     </S.ShareList>
-//   </S.ShareWrapper>
-// );
-
-// export default Share;
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -42,7 +24,9 @@ const Share = ({ socialConfig }) => (
         quote={socialConfig.config.title}
         hashtag=""
       >
-        <FacebookIcon size={40} round />
+        <S.IconWrapper>
+          <FacebookIcon size={40} round />
+        </S.IconWrapper>
       </FacebookShareButton>
 
       <WhatsappShareButton
@@ -50,7 +34,9 @@ const Share = ({ socialConfig }) => (
         quote={socialConfig.config.title}
         hashtag=""
       >
-        <WhatsappIcon size={40} round />
+        <S.IconWrapper>
+          <WhatsappIcon size={40} round />
+        </S.IconWrapper>
       </WhatsappShareButton>
 
       <LinkedinShareButton
@@ -58,7 +44,9 @@ const Share = ({ socialConfig }) => (
         quote={socialConfig.config.title}
         hashtag=""
       >
-        <LinkedinIcon size={40} round />
+        <S.IconWrapper>
+          <LinkedinIcon size={40} round />
+        </S.IconWrapper>
       </LinkedinShareButton>
 
       <TwitterShareButton
@@ -66,7 +54,9 @@ const Share = ({ socialConfig }) => (
         quote={socialConfig.config.title}
         hashtag=""
       >
-        <TwitterIcon size={40} round />
+        <S.IconWrapper>
+          <TwitterIcon size={40} round />
+        </S.IconWrapper>
       </TwitterShareButton>
 
       <TelegramShareButton
@@ -74,7 +64,9 @@ const Share = ({ socialConfig }) => (
         quote={socialConfig.config.title}
         hashtag=""
       >
-        <TelegramIcon size={40} round />
+        <S.IconWrapper>
+          <TelegramIcon size={40} round />
+        </S.IconWrapper>
       </TelegramShareButton>
     </S.ShareWrapper>
   </>

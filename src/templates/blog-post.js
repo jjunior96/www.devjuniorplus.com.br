@@ -34,6 +34,7 @@ const BlogPost = ({ data, pageContext }) => {
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <ToUp />
+        <hr />
         <Share
           socialConfig={{
             config: {
