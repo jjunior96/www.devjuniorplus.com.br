@@ -93,6 +93,7 @@ export const MainContent = styled.section`
   }
   ul {
     list-style: disc;
+    margin-left: 2rem;
   }
 
   ol {
@@ -112,6 +113,9 @@ export const MainContent = styled.section`
       word-wrap: break-word;
       border-radius: 8px;
     }
+  }
+  li::marker {
+    padding-left: 2rem !important;
   }
   pre::-webkit-scrollbar {
     ${media.lessThan('large')`
@@ -141,10 +145,12 @@ export const MainContent = styled.section`
   }
   blockquote {
     color: var(--post-color);
-    border-left: 0.5rem solid var(--hightlight-quote);
-    padding: 1.2rem 2.4rem 0.1rem;
+    border-left: 0.7rem solid var(--hightlight-quote);
+    /* padding: 1.2rem 2.4rem 0.1rem; */
+    padding: 1.3rem 0.5rem 0.1rem;
     margin: 3.2rem auto;
-    background-color: var(--background-blockquote);
+    /* background-color: var(--background-blockquote); */
+    background-color: rgba(0, 0, 0, 0.07);
     border-radius: 4px;
   }
   hr {
