@@ -161,6 +161,9 @@ Quando isso acontece, tendemos a voltar no texto para reler, mas perdemos muito 
 Podemos medir nossos avanços com a leitura, para sabermos onde podemos melhorar.
 
 Por exemplo, podemos medir quantas paginas lemos em 30 minutos, assim a medida que vamos melhorando nossa leitura, podemos ver o progresso que estamos tendo.
+<br/>
+
+> <a href="https://www.youtube.com/watch?v=4zMpS0fC4yg" target="_blank" rel="noopener noreferrer" >Vídeo sobre repetição espaçada</a>
 
 <hr/>
 
