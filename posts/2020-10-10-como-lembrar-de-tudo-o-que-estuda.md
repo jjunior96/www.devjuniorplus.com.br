@@ -1,5 +1,5 @@
 ---
-title: Como lembrar de tudo o que estuda?
+title: Como lembrar de tudo o que estudo?
 description: Existem algumas dicas para melhorar nossos estudos?
 date: 2020-10-10 06:35:11
 image: assets/images/nick-morrison-fhnnjk1yj7y-unsplash.jpg
@@ -28,7 +28,7 @@ background: "#fb5607"
 
 <h2 id="introducao">Introdução</h2>
 
-> Como lembrar de tudo o que estuda?
+> Como lembrar de tudo o que estudo?
 
 Essa é com certeza, uma das perguntas mais feitas por nós. Sempre estamos aprendendo algo novo, mas acabamos esquecendo algumas partes. E isso é extremamente normal.
 
