@@ -76,13 +76,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Junior Alves`,
-        short_name: `Junior Alves`,
+        short_name: `JR`,
         start_url: `/`,
         background_color: `#383A47`,
         theme_color: `#383A47`,
         display: `standalone`,
         lang: 'pt-BR',
-        // orientation: 'any',
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
