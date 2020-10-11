@@ -82,7 +82,7 @@ module.exports = {
         theme_color: `#383A47`,
         display: `standalone`,
         lang: 'pt-BR',
-        orientation: 'any',
+        // orientation: 'any',
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
