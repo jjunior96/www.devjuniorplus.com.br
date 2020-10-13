@@ -8,8 +8,6 @@ background: "#fb5607"
 ---
 ![capa criada pela Rocketseat para o NLW 3](assets/images/1-nlw-03-1920x1080.jpg "capa criada pela Rocketseat para o NLW 3")
 
-
-
 * [Introdução](#introducao)
 * [Aplicação](#aplicacao)
 * [Ambiente de desenvolvimento](#ambiente)
@@ -44,8 +42,6 @@ Happy, uma aplicação para aproximar pessoas das crianças de orfanato. Onde po
 >
 > Visite orfanatos e mude o dia de muitas crianças.
 
-
-
 <h2 id="ambiente">Ambiente de desenvolvimento</h2>
 
 A cada evento, a Rocketseat otimiza mais o ambiente de desenvolvimento. Antes tínhamos a primeira aula da semana dedicada exclusivamente para as instalações e configurações necessárias, mas desde a NLW#2, a semana inteira é focada na aplicação, já que o ambiente de desenvolvimento está cada vez mais simples.
@@ -65,8 +61,6 @@ Depois explicou uma API REST:
 ![esquema de uma api rest](assets/images/2-api-rest-example.png "esquema de uma api rest")
 
 > O software que ele usou para criar esses diagramas é o <a href="https://whimsical.com/" target="_blank" rel="noopener noreferrer" >Whimsical</a>.
-
-
 
 <h2 id="typescript">TypeScript</h2>
 
@@ -90,8 +84,6 @@ Outro ponto que é legal estudar é o JSX (Javascript + XML), pois, quando criam
 
 > Post sobre JSX <a href="https://www.devjuniorplus.com.br/conhecendo-o-jsx/" target="_blank" rel="noopener noreferrer">aqui</a>.
 
-
-
 <h2 id="create-react">Create-react-app</h2>
 
 Essa ferramenta, criada pelo próprio Facebook (criador do React), facilita toda a configuração inicial que precisamos fazer antes de começarmos a criar nossos projetos.
@@ -109,3 +101,5 @@ Vou colocar aqui minhas anotações sobre cada aula do NLW#3, então fica ligado
 <h2 id="meu-projeto">Meu projeto</h2>
 
 Minha versão da aplicação desenvolvida essa semana esta no Github, basta clicar <a href="https://github.com/jjunior96/nlw-happy" target="_blank" rel="noopener noreferrer" >aqui</a>.
+
+![landing page da aplicacao Happy](assets/images/screen-shot-2020-10-13-at-08.59.50.png "landing page da aplicacao Happy")
