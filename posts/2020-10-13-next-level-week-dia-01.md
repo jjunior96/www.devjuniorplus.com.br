@@ -26,6 +26,8 @@ E chegamos a terceira edição da Next Level Week (NLW), evento da Rocketseat, o
 
 Então, sem mais enrolação, bora conferir como foi esse primeiro dia de NLW#3!
 
+<br/>
+
 <h2 id="aplicacao">A aplicação</h2>
 
 Desde quando esse evento se chamava Semana Omnistack (conhece a Rocketseat a mais tempo vai se lembrar), todos nós ficamos ansiosos para saber qual será o tema da vez. Sempre é um mistério que só é revelado no primeiro dia do evento.
@@ -42,11 +44,15 @@ Happy, uma aplicação para aproximar pessoas das crianças de orfanato. Onde po
 >
 > Visite orfanatos e mude o dia de muitas crianças.
 
+<br/>
+
 <h2 id="ambiente">Ambiente de desenvolvimento</h2>
 
 A cada evento, a Rocketseat otimiza mais o ambiente de desenvolvimento. Antes tínhamos a primeira aula da semana dedicada exclusivamente para as instalações e configurações necessárias, mas desde a NLW#2, a semana inteira é focada na aplicação, já que o ambiente de desenvolvimento está cada vez mais simples.
 
 Para acompanhar as aulas, precisamos basicamente de um editor de texto (<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" >VS Code</a>, por exemplo), o <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" >Node.js</a> e um gerenciador de pacotes (NPM ou <a href="https://yarnpkg.com/" target="_blank" rel="noopener noreferrer" >Yarn</a>).
+
+<br/>
 
 <h2 id="api-rest">Entendendo uma API REST</h2>
 
@@ -62,11 +68,15 @@ Depois explicou uma API REST:
 
 > O software que ele usou para criar esses diagramas é o <a href="https://whimsical.com/" target="_blank" rel="noopener noreferrer" >Whimsical</a>.
 
+<br/>
+
 <h2 id="typescript">TypeScript</h2>
 
 Bom, outra mudança que tivemos desde a NLW#2 foi a introdução ao Typescript, o que pode trazer algumas dificuldades iniciais para quem não trabalhou com esse superset do Javascript.
 
 > Tenho um post explicando uma conceitos básico sobre Typescript <a href="https://www.devjuniorplus.com.br/aprendendo-typescript-parte-1/" target="_blank" rel="noopener noreferrer" >aqui</a>, confere lá depois. 
+
+<br/>
 
 <h2 id="react">React</h2>
 
@@ -84,6 +94,8 @@ Outro ponto que é legal estudar é o JSX (Javascript + XML), pois, quando criam
 
 > Post sobre JSX <a href="https://www.devjuniorplus.com.br/conhecendo-o-jsx/" target="_blank" rel="noopener noreferrer">aqui</a>.
 
+<br/>
+
 <h2 id="create-react">Create-react-app</h2>
 
 Essa ferramenta, criada pelo próprio Facebook (criador do React), facilita toda a configuração inicial que precisamos fazer antes de começarmos a criar nossos projetos.
@@ -92,11 +104,15 @@ E foi o que o Diego utilizou para criarmos nosso Frontend Web.
 
 > Também tenho um post explicando na prática o uso do create-react-app <a href="https://www.devjuniorplus.com.br/usando-o-create-react-app-do-react/" target="_blank" rel="noopener noreferrer" >aqui</a>.
 
+<br/>
+
 <h2 id="cobertura">Cobertura do evento</h2>
 
 Esse evento está apenas começando e vamos aprender muitos conceitos e, o mais importante, codar muito ao longo dessa semana!
 
 Vou colocar aqui minhas anotações sobre cada aula do NLW#3, então fica ligado. XD
+
+<br/>
 
 <h2 id="meu-projeto">Meu projeto</h2>
 
