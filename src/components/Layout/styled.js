@@ -16,7 +16,7 @@ export const LayoutMain = styled.main`
   min-height: 100vh;
   font-size: 1.6rem;
   padding-top: 0.5rem;
-  padding-left: 30rem;
+  padding-left: 28rem;
   width: 100%;
 
   ${media.lessThan('large')`
