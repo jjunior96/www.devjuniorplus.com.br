@@ -62,14 +62,19 @@ export const ShareLink = styled.a`
 export const IconWrapper = styled.div`
   margin-bottom: 8px;
   opacity: 0.5;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s, filter 0.5s;
+  filter: saturate(0%);
 
   &:hover {
     opacity: 1;
+    filter: saturate(100%);
+    box-shadow: 0 5px 10px #232432;
+    border-radius: 50%;
   }
 
   ${media.lessThan('large')`
     margin-left: 8px;
     opacity: 1;
+    filter: saturate(100%);
   `}
 `;
