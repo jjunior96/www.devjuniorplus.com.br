@@ -1,5 +1,5 @@
 ---
-title: Conheca a estrategia Ultralearning de estudos
+title: O que eu achei da estratégia de estudos Ultralearning?
 description: Aprenda qualquer assunto de forma rápida e consistente
 date: 2021-01-27 12:16:15
 image: assets/images/ben-white-qdy9ahp0mto-unsplash.jpg
