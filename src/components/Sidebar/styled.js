@@ -6,8 +6,6 @@ export const SidebarWrapper = styled.aside`
   align-items: center;
   flex-direction: column;
   background-color: var(--background-profile-primary);
-  /* margin: 2rem; */
-  /* height: 95vh; */
   height: 100vh;
   position: fixed;
   text-align: center;
