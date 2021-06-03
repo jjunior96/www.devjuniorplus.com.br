@@ -20,7 +20,7 @@ background: "#3a86ff"
 * [Abstract](#abstract)
 * [Interfaces](#interfaces)
 * [Propriedades opcionais](#propriedade-opcional)
-* [Estender interfaces](#estender-interfaces)
+* [Extender interfaces](#extender-interfaces)
 * [Implements](#implements)
 * [Conclusão](#conclusao)
 
@@ -498,7 +498,7 @@ const leftBehind: DLC = {
 
 <h2 id="implements">Implements</h2>
 
-Posso estender uma classe de uma interface. 
+Posso extender uma classe de uma interface. 
 
 Como? Com o `implements`.
 
