@@ -49,8 +49,8 @@ export default Todo;
 Precisamos agora capturar o input do usuário, para isso, criamos uma função como abaixo:
 
 ```jsx
-function handleInputTask(event) {
-   let inputTask = event.target.value;
+function handleChangeInput(event) {
+   const inputTask = event.target.value;
 }
 ```
 
@@ -58,7 +58,7 @@ function handleInputTask(event) {
 E passar a **handleInputTask** no **onChange** do input:
 
 ```jsx
-<input type="text" placeholder="Adicione uma tarefa" onChange={handleInputTask} />
+<input type="text" placeholder="Adicione uma tarefa" onChange={handleChangeInput} />
 ```
 
 # Blz, mas como fazemos para adicionar o novo item na lista?
@@ -80,11 +80,12 @@ function Todo() {
 }
 ```
 
-Nossa função **handleInputTask** fica assim:
+Nossa função **handleChangeInput** fica assim:
 
 ```jsx
-function handleInputTask(event) {
+function handleChangeInput(event) {
   let inputTask = event.target.value;
+  
   setTask(inputTask); // <----- atualizamos o estado "task" atraves de "setTask"
 }
 ```
@@ -113,8 +114,9 @@ Adicionando items na lista:
 
 ```jsx
 // Adiciona um novo elemento na lista
-function addItem(event) {
-  event.preventDefault(); // <----- desabilita o refresh na pagina ao clicar no botão
+function handleAddItemToList(event) {
+  event.preventDefault(); // <----- desabilita o refresh na pagina ao enviar um formulário
+  
   setItemsList([...itemsList, task]); // <----- Copia todos os items ja existentes e entao adiociona o novo item
 }
 ```
@@ -122,25 +124,27 @@ function addItem(event) {
 Basta passarmos essa função ao botão, para ser executada assim que ele seja clicado:
 
 ```jsx
-<button type="submit" onClick={addItem} >Adicionar</button>
+<button type="submit" onClick={handleAddItemToList}>Adicionar</button>
 ```
 
 <br />
 
-Agora, queremos que ao clicar no botão de adicionar, o campo de input seja limpado.
+Agora, queremos que ao clicar no botão de adicionar, o campo de input fique limpo.
 
 Podemos fazer assim:
 
 ```jsx
-function addItem(event) {
+function handleAddItemToList(event) {
   event.preventDefault();
+  
   setItemsList([...itemsList, text]);
+  
   // Limpa o campo de input
   setTask("");
 }
 ```
 
-Basta chamar o **setText** e passar vazio para ele.
+Basta chamar o **setTask** e passar vazio para ele.
 
 Mas para que funcione de fato, precisamos também passar o valor de "task" como "value" do input, assim:
 
@@ -160,10 +164,11 @@ Para corrigir, basta criarmos uma verificação antes de adicionarmos um novo it
 
 ```jsx
 // Verifica se tem um item para adicionar
-if(text) {
-  setItemsList([...itemsList, text]);
+if(task) {
+  setItemsList([...itemsList, task]);
+  
   // Limpa o campo de input
-  setText("");
+  setTask("");
 }
 ```
 
@@ -205,7 +210,7 @@ export default List;
 Agora, dentro de **Todo.js**, precisamos importar esse componente **List**. Para isso, basta fazermos:
 
 ```jsx
-// Importa o meu componente List
+// Importa meu componente List
 import List from './components/List';
 ```
 
@@ -223,7 +228,7 @@ return (
         <button type="submit" onClick={addItem} >Adiciona</button>
       </form>
     
-      <List itemsList={itemsList} /> {/* <--------- */}
+      <List itemsList={itemsList} /> {/* <--------- passando o `itemList` como props para o componente */}
     </div>
   );
 ```
@@ -238,7 +243,7 @@ Mas antes, precisamos entender algumas coisas. O nosso **form** tem algumas part
 
 1. Ele precisa acessar o estado **itemsList** para inserir o novo item, porém, esse é um estado pertencente do componente **Todo** (componente pai).
 2. O estado **task** pertence ao **form**, então tudo ok.
-3. As funções **handleInputTask** e **addItem** também pertencem ao **form**.
+3. As funções **handleChangeInput** e **addItem** também pertencem ao **form**.
 
 ```jsx
 import React, { useState } from 'react';
@@ -246,24 +251,26 @@ import React, { useState } from 'react';
 function Form(props) {
   const [task, setTask] = useState("");
 
-  function handleInputTask(event) {
+  function handleChangeInput(event) {
     let inputTask = event.target.value;
+    
     setTask(inputTask);
   }
 
-  function addItem(event) {
+  function handleAddItemToList(event) {
     event.preventDefault();
     
     if(task) {
-      props.onAddItem(task) // <-----------
+      props.handleAddItemToList(task) // <-----------
+      
       setTask("");
     }
   }
   
   return (
     <form >
-      <input type="text" onChange={handleInputTask} value={task} />
-      <button type="submit" onClick={addItem} >Adiciona</button>
+      <input type="text" onChange={handleChangeInput} value={task} />
+      <button type="submit" onClick={handleAddItemToList}>Adiciona</button>
     </form>
   )
 }
@@ -273,7 +280,7 @@ export default Form;
 
 <br />
 
-No componente **Todo**  (componente pai), precisamos passar a propriedade **onAddItem** (que na verdade é uma função) para o **Form**.
+No componente **Todo**  (componente pai), precisamos passar a propriedade **handleAddItemToList** (que na verdade é uma função) para o **Form**.
 
 ```jsx
 import React, { useState } from 'react';
@@ -284,7 +291,7 @@ import Form from './components/Form';
 function Todo() {
   const [itemsList, setItemsList] = useState([]);
   
-  function onAddItem(newItem) { 		// <------------ 
+  function handleAddItemToList(newItem) {   // <------------ 
     setItemsList([...itemsList, newItem])
   }
   
@@ -292,7 +299,7 @@ function Todo() {
     <div className="todo-wrapper">
       <h1>ToDo List</h1>
       
-      <Form onAddItem={onAddItem}/> { /* <------------ */ }
+      <Form onAddItem={handleAddItemToList}/> { /* <------------ */ }
 
       <List itemsList={itemsList} />
     </div>
