@@ -6,6 +6,8 @@ image: assets/images/eugen-str-crhsiry3jwy-unsplash.jpeg
 category: react
 background: "#7b2cbf"
 ---
+![Ferramentas ](assets/images/eugen-str-crhsiry3jwy-unsplash.jpeg "Fixing problems")
+
 ### Introdução
 
 Venho estudando bastante documentação no Frontend, especificamente o Storybook e ao mesmo tempo me aprofundo mais no Next.js. Mas hoje tive um erro com o Storybook utilizando o `useRouter` do Next.js.
