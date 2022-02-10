@@ -6,6 +6,8 @@ image: assets/images/leon-dewiwje-lddmtgf89gu-unsplash.jpeg
 category: misc
 background: "#fb5607"
 ---
+![Formulario](assets/images/leon-dewiwje-lddmtgf89gu-unsplash.jpeg "Formulario")
+
 ## Introdução
 
 Vamos para mais um dica aqui, dessa vez uma dica de validação de formulários. Utilizo bastante o Yup no meu dia-a-dia, o que me faz sempre procurar novas funcionalidades dessa lib incrível. 
