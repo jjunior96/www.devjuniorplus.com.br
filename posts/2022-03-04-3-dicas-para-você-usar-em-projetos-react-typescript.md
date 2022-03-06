@@ -10,7 +10,8 @@ background: "#7b2cbf"
 
 ## Introdução
 
-> Antes de mais nada, se você está aprendendo sobre React + Typescript, fiz um vídeo que ficou bem massa, depois da uma olhada lá. 😎
+> Antes de mais nada, se você está aprendendo sobre React + Typescript, fiz um vídeo que ficou bem massa, depois da uma olhada lá. 😎 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A4wImDtQw7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Hoje vamos abordar uma dica rápida porém muito útil no dia-a-dia como Dev se você utiliza Typescript: 
 
