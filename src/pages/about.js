@@ -38,15 +38,15 @@ const AboutPage = () => (
       <p>
         Fiz alguns cursos específicos sobre Gatsby, Javascript ES6+, GraphQL,
         mas na maior parte do tempo, estou lendo documentações e tentando
-        aprender algo novo. Atualmente trabalho na{' '}
+        aprender algo novo. Atualmente trabalho no{' '}
         <a
-          href="https://smartenvios.com/"
+          href="https://www.magazineluiza.com.br/quem-somos/?cdConvenio=CVTR00001947"
           target="_blank"
           rel="noopener noreferrer"
         >
-          SmartEnvios
+          Luiza Labs
         </a>{' '}
-        como Full Stack Developer.
+        como Senior Frontend Developer.
       </p>
 
       <p>
