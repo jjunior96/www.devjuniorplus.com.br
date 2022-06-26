@@ -54,7 +54,7 @@ function handleChangeInput(event) {
 }
 ```
 
-\
+
 E passar a **handleInputTask** no **onChange** do input:
 
 ```jsx
@@ -65,7 +65,7 @@ E passar a **handleInputTask** no **onChange** do input:
 
 Precisamos saber duas coisas primeiro:
 
-1. Não podemos alterar um objeto/array diretamente em React, precisamos utilizar **estado**;
+1. Não podemos alterar uma variável diretamente em React, precisamos utilizar **estado (state)**;
 2. Precisamos criar um função que será executada assim que o usuário clicar no botão "Adicionar".
 
 Primeiro vamos criar um **estado** para salvar o input do usuário:
@@ -84,7 +84,7 @@ Nossa função **handleChangeInput** fica assim:
 
 ```jsx
 function handleChangeInput(event) {
-  let inputTask = event.target.value;
+  const inputTask = event.target.value;
   
   setTask(inputTask); // <----- atualizamos o estado "task" atraves de "setTask"
 }
@@ -98,7 +98,7 @@ function handleChangeInput(event) {
 
 ## Próximo passo: criar uma lista onde será salvo nossos itens
 
-Já estamos atualizando o valor do estado, mas não é isso que queremos.
+Já estamos atualizando o valor do estado, mas ainda precisamos de algo a mais.
 
 Precisamos entrar com um valor no input, clicar em "adicionar" e então, o item é adicionado na nossa lista.
 
@@ -121,13 +121,25 @@ function handleAddItemToList(event) {
 }
 ```
 
-Basta passarmos essa função ao botão, para ser executada assim que ele seja clicado:
+Basta passarmos essa função ao `onSubmit` do formulário:
 
 ```jsx
-<button type="submit" onClick={handleAddItemToList}>Adicionar</button>
+<form onSubmit={handleAddItemToList}>
 ```
 
 <br />
+
+Para começarmos a ver funcionando, precisamos alterar nossa `ul`:
+
+```js
+<ul className="todo-list">
+  {itemsList.map((item, index) => ( // <----- Percorremos o array de todos
+  	<li key={index}>{item}</li> // <----- Para cada item do array, criamos um `li`
+	))}
+</ul>
+```
+
+>  OBS.: No React, quando lidamos com Arrays, é muito importante passarmos uma `key` para o primeiro elemento que será renderizado, nesse caso é o `li`. **Note que utilizamos o `index` do array como key**.
 
 Agora, queremos que ao clicar no botão de adicionar, o campo de input fique limpo.
 
@@ -149,34 +161,86 @@ Basta chamar o **setTask** e passar vazio para ele.
 Mas para que funcione de fato, precisamos também passar o valor de "task" como "value" do input, assim:
 
 ```jsx
-<input type="text" placeholder="Adicione uma tarefa" onChange={handleInputTask} value={task} />
+<input type="text" placeholder="Adicione uma tarefa" onChange={handleChangeInput} value={task} />
 ```
 
 <br />
 
 # Ok, tudo certo né?
 
-Bom, ainda não, pois isso causa um efeito colateral, pois se não inserirmos nada no input e clicar em adicionar, será adicionado, não é isso o que queremos.
+Bom, ainda não, porque temos um efeito colateral, pois se não inserirmos nada no input e clicar em adicionar, será adicionado um item **vazio**, não é isso o que queremos.
 
 ![resultado no browser](assets/images/imagemaddbranco.png "resultado no browser")
 
 Para corrigir, basta criarmos uma verificação antes de adicionarmos um novo item na lista, dessa forma:
 
 ```jsx
-// Verifica se tem um item para adicionar
-if(task) {
-  setItemsList([...itemsList, task]);
-  
-  // Limpa o campo de input
-  setTask("");
-}
+function handleAddItemToList(event) {
+    event.preventDefault();
+
+    if (!task) { // <----- Se nao tiver vazio, nao faz nada
+      return
+    };
+    
+    setItemsList([...itemsList, task]); 
+    setTask(""); // <----- Reseta o valor do input
+  }
 ```
 
 <br />
 
+### O código completo até aqui
+
+```js
+import React, { useState } from 'react';
+
+function Todo() {
+  const [task, setTask] = useState(""); 
+  const [itemsList, setItemsList] = useState([]); 
+
+  function handleChangeInput(event) {
+    const inputTask = event.target.value;
+    
+    setTask(inputTask); 
+  }
+  
+  function handleAddItemToList(event) {
+    event.preventDefault(); 
+
+    if (!task) { 
+      return
+    };
+    
+    setItemsList([...itemsList, task]);
+    setTask(""); 
+  }
+
+  return (
+    <div className="todo-wrapper">
+      <h1>ToDo List</h1>
+      <form onSubmit={handleAddItemToList}>
+        <input type="text" placeholder="Adicione uma tarefa" onChange={handleChangeInput} value={task} />
+
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <ul className="todo-list" >
+        {itemsList.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default Todo;
+```
+
+> Se preferir, esse é o commit: https://github.com/jjunior96/studies-react/commit/221795792609ceeb876380008fa9716ccc324e27
+
 # Separando os componentes
 
-Um dos conceitos importantes do React é justamente a componentização. Podemos criar interfaces complexas, que são compostas por vários componentes simples, componentes que são especialistas no que fazem.
+Um dos conceitos importantes do React é justamente a componentização. Podemos criar interfaces visuais complexas, que são compostas por vários componentes simples, componentes que são especialistas no que fazem.
 
 Por exemplo: 
 
@@ -194,10 +258,12 @@ Recortamos nossa lista que esta dentro de **Todo.js** e criarmos nosso component
 // src/components/List/index.js
 import React from 'react';
 
-function List (props) {
-  return(
-    <ul className="todo-list" >
-      {props.itemsList.map(item => (<li>{item}</li> ))}
+function List(props) {
+  return (
+    <ul className="todo-list">  
+      {props.itemsList.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
     </ul>
   )
 }
@@ -220,6 +286,7 @@ E chamar esse componente, passando as props, que no caso é o **itemsList**:
 
 ```jsx
 // src/Todo.js
+// {...}
 return (
     <div className="todo-wrapper">
       <h1>ToDo List</h1>
@@ -231,46 +298,64 @@ return (
       <List itemsList={itemsList} /> {/* <--------- passando o `itemList` como props para o componente */}
     </div>
   );
+// {...}
 ```
 
 <br />
 
 # Continuando nossa refatoração
 
-Vamos agora criar um novo componente para o **form**.
+Vamos criar um componente de `Input` e outro de `Button`. São bem simples, pra gente treinar a componentização. :) 
 
-Mas antes, precisamos entender algumas coisas. O nosso **form** tem algumas particularidades que precisamos levar em conta:
+```js
+// src/components/Input/index.js
 
-1. Ele precisa acessar o estado **itemsList** para inserir o novo item, porém, esse é um estado pertencente do componente **Todo** (componente pai).
-2. O estado **task** pertence ao **form**, então tudo ok.
-3. As funções **handleChangeInput** e **addItem** também pertencem ao **form**.
+import React from 'react';
+
+function Input(props) {
+  return (
+    <input onChange={props.onChange} placeholder={props.placeholder} value={props.value} type={props.type} />
+  )
+}
+
+export default Input;
+```
+
+
+
+```js
+// src/components/Button/index.js
+
+import React from 'react';
+
+function Button(props) {
+  return (
+    <button type={props.type}>
+      {props.children}
+    </button>
+  )
+}
+
+export default Button;
+```
+
+> DICA: Coloque um console.log() para ver o que vem nas `props` dos componentes, para entender o real funcionamento das propriedades dentro do React. Altere as props enviadas e veja o que acontece!
+
+
+
+### Indo além...
+
+Agora vamos criar um novo componente para o **form**.
 
 ```jsx
-import React, { useState } from 'react';
+// src/components/Form/index.js
+
+import React from 'react';
 
 function Form(props) {
-  const [task, setTask] = useState("");
-
-  function handleChangeInput(event) {
-    let inputTask = event.target.value;
-    
-    setTask(inputTask);
-  }
-
-  function handleAddItemToList(event) {
-    event.preventDefault();
-    
-    if(task) {
-      props.handleAddItemToList(task) // <-----------
-      
-      setTask("");
-    }
-  }
-  
   return (
-    <form >
-      <input type="text" onChange={handleChangeInput} value={task} />
-      <button type="submit" onClick={handleAddItemToList}>Adiciona</button>
+    <form onSubmit={props.onSubmit}>
+      {props.children}
     </form>
   )
 }
@@ -280,28 +365,55 @@ export default Form;
 
 <br />
 
-No componente **Todo**  (componente pai), precisamos passar a propriedade **handleAddItemToList** (que na verdade é uma função) para o **Form**.
+Agora, no componente **Todo** (componente pai), vai ficar assim:
 
 ```jsx
 import React, { useState } from 'react';
 
-import List from './components/List';
+import Button from './components/Button';
 import Form from './components/Form';
+import Input from './components/Input';
+import List from './components/List';
+
+import './todo.css';
 
 function Todo() {
+  const [task, setTask] = useState("");
   const [itemsList, setItemsList] = useState([]);
-  
-  function handleAddItemToList(newItem) {   // <------------ 
-    setItemsList([...itemsList, newItem])
+
+  function handleChangeInput(event) {
+    const inputTask = event.target.value;
+    
+    setTask(inputTask); 
   }
   
+
+  function handleAddItemToList(event) {
+    event.preventDefault(); 
+
+    if (!task) { 
+      return
+    };
+    
+    setItemsList([...itemsList, task]); 
+    setTask(""); 
+  }
+
   return (
     <div className="todo-wrapper">
       <h1>ToDo List</h1>
       
-      <Form onAddItem={handleAddItemToList}/> { /* <------------ */ }
+      {/* Nosso componente de Form */}
+      <Form onSubmit={handleAddItemToList}>
+        {/* Nosso componente de Input */}
+        <Input type="text" placeholder="Adicione uma tarefa" onChange={handleChangeInput} value={task} />
 
-      <List itemsList={itemsList} />
+        {/* Nosso componente de Button */}
+        <Button type="submit">Adicionar</Button>
+      </Form>
+
+     {/* Nosso componente de List */}
+     <List itemsList={itemsList} />
     </div>
   );
 }
