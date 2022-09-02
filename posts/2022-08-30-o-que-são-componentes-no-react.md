@@ -1,5 +1,5 @@
 ---
-title: O que são componentes no React?
+title: O que são componentes no React - Part I?
 description: Vamos entender um dos principais conceitos do React
 date: 2022-08-30 07:11:09
 image: assets/images/christopher-gower-m_hrflhgabo-unsplash.jpeg
