@@ -1,7 +1,7 @@
 ---
 title: O que são componentes no React - Part II?
 description: Vamos entender um dos principais conceitos do React
-date: 2022-08-30 07:11:09
+date: 2022-09-02 07:11:09
 image: assets/images/devin-pickell-1eRS74C-alQ-unsplash.jpeg
 category: react
 background: "#7b2cbf"
