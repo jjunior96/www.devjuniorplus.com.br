@@ -1,5 +1,5 @@
 ---
-title: "# O que são e para que servem as Props no React?"
+title: O que são e para que servem as Props no React?
 description: "Vamos entender um conceito muito importante no React: as Props"
 date: 2022-09-30 08:12:37
 image: assets/images/yannik-mika-gjfbkfi874o-unsplash.jpeg
