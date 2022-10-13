@@ -10,6 +10,10 @@ background: "#7b2cbf"
 
 ## Introdução
 
+Se você preferir a versão em vídeo:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RAmWGSELZXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 No último post ([clique aqui](https://www.devjuniorplus.com.br/o-que-s%C3%A3o-componentes-no-react/)), começamos a entender o que são componentes em React.
 
 Agora vamos criar nosso primeiro componentes, ou seja, bora codar!
