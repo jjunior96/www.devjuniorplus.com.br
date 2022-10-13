@@ -10,6 +10,9 @@ background: "#7b2cbf"
 
 ## Componentes - Part I
 
+Se você preferir a versão em vídeo:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RAmWGSELZXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Quando criamos um projeto em React, seja com Vite, CRA (create react app) ~~não utilizar mais por favor~~ ou Next.js, temos um arquivo **principal**: App.js (ou .tsx se estiver utilizando TypeScript).
 
 Esse componente é a "porta de entrada" do nosso projeto.
