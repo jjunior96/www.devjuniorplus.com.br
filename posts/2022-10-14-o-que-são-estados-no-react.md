@@ -14,17 +14,23 @@ Nos útlimos posts, aprendemos sobre componentes, props e agora chegou a hora de
 
 Vamos entender sobre:
 
-* O que são estados?
-* Para que servem os estados?
-* Quando utilizar?
-* Quando não utilizar?
-* O que são derived state?
+- O que são estados?
+
+- Para que servem os estados?
+
+- Quando utilizar?
+
+- Quando não utilizar?
+
+- O que são derived state?
 
 Se você perdeu os outros posts: 
 
-* [Componentes parte 1](https://www.devjuniorplus.com.br/o-que-são-componentes-no-react/)
-* [Componentes parte 2](https://www.devjuniorplus.com.br/o-que-são-componentes-no-react-part-2/)
-* [O que são props e para que servem?](https://www.devjuniorplus.com.br/o-que-são-e-para-que-servem-as-props-no-react/)
+- [Componentes parte 1](https://www.devjuniorplus.com.br/o-que-são-componentes-no-react/)
+
+- [Componentes parte 2](https://www.devjuniorplus.com.br/o-que-são-componentes-no-react-part-2/)
+
+- [O que são props e para que servem?](https://www.devjuniorplus.com.br/o-que-são-e-para-que-servem-as-props-no-react/)
 
 Pronto?! Então bora!
 
@@ -43,7 +49,15 @@ Imagine o seguinte cenário:
 Você poderia pensar em criar o seguinte componente:
 
 ```tsx
-
+const Login = () => {
+    return (
+        <form>
+            <input placeholder="Digite seu e-mail" />
+            <input placeholder="Digite sua senha" type="password" />
+            <button>Entrar</button>
+        </form>
+    )
+}
 ```
 
 Funcionaria, certo? Bom... Mais ou menos
@@ -51,7 +65,20 @@ Funcionaria, certo? Bom... Mais ou menos
 Porque o usuário iria digitar nos inputs, mas o formulário não iria ser submitido certo? Então vamos corrigir.
 
 ```tsx
+const Login = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault(); // Apenas para evitar o refresh na pagina
+        // ... E agora, o que mais é necessário??
+    }
 
+    return (
+        <form>
+            <input placeholder="Digite seu e-mail" />
+            <input placeholder="Digite sua senha" type="password" />
+            <button>Entrar</button>
+        </form>
+    )
+}
 ```
 
 Nesse ponto, o que você faria? O que deveria ir abaixo no `event.preventDefault()`?!
@@ -61,22 +88,75 @@ Acertou se você pensou nos estados!
 Vamos melhorar esse exemplo:
 
 ```tsx
+const Login = () => {
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
 
+    const handleSubmit = (event) => {
+        event.preventDefault(); 
+    }
+
+    return (
+        <form>
+            <input placeholder="Digite seu e-mail" />
+            <input placeholder="Digite sua senha" type="password" />
+            <button>Entrar</button>
+        </form>
+    )
+}
 ```
 
 Agora o que precisamos é utilizar nossos `states`, dessa forma:
 
 ```tsx
+const Login = () => {
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
 
+    const handleInputEmail = (event: FormEvent) => {
+        setEmail(event.target.value);
+    }
+
+    const handleInputSenha = (event: FormEvent) => {
+        setSenha(event.target.value);
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault(); 
+
+        console.log(`senha: ${senha}, email: ${email}`);
+
+        // Ex.: podemos enviar para uma API
+    }
+
+    return (
+        <form onSubmit={handleSubmit}>
+            <input 
+                placeholder="Digite seu e-mail" 
+                value={email} 
+                onChange={handleInputEmail} 
+            />
+            <input 
+                placeholder="Digite sua senha" 
+                type="password" 
+                value={senha}
+                onChange={handleInputSenha}
+            />
+            <button type="submit">Entrar</button>
+        </form>
+    )
+}
 ```
 
 ## Quando utilizar?
 
 Vimos vários exemplos de utilização dos estados, mas vamos recapitular:
 
-* Guardar inputs do usuário (OBS.: caso seja um formulário complexo, utilizar libs como React Hook Form ao invés de estados)
-* Guardar retorno de APIs (OBS.: Existem libs como React Query que gerencia chamadas HTTP, podendo ser uma melhor alternativa nesse caso)
-* Abrir/fechar modais/toogles/menus...
+- Guardar inputs do usuário (OBS.: caso seja um formulário complexo, utilizar libs como React Hook Form ao invés de estados)
+
+- Guardar retorno de APIs (OBS.: Existem libs como React Query que gerencia chamadas HTTP, podendo ser uma melhor alternativa nesse caso)
+
+- Abrir/fechar modais/toogles/menus...
 
 Em geral, qualquer informação que precisamos "manipular" (utilizar e/ou modificar), podemos guardar nos estados. 
 
@@ -84,9 +164,11 @@ Em geral, qualquer informação que precisamos "manipular" (utilizar e/ou modifi
 
 As vezes cometemos alguns equívocos utilizando estados quando não são necessários, por exemplo:
 
-* Guardar o tamanho de arrays/objetos/strings (.length)
-* Guardar vários inputs de um formulário complexo
-* Ter vários estados relacionados a uma única informação (nesse caso, podemos utilizar o useReducer)
+- Guardar o tamanho de arrays/objetos/strings (.length)
+
+- Guardar vários inputs de um formulário complexo
+
+- Ter vários estados relacionados a uma única informação (nesse caso, podemos utilizar o useReducer)
 
 Na maioria das vezes, não precisamos de um estado, podemos utilizar uma váriavel comum. Existe o conceito de derived state, que vamos falar agora!
 
@@ -103,7 +185,15 @@ Entretanto, existem alguns momentos que não precisamos de `states` e podemos ut
 Como no exemplo abaixo:
 
 ```tsx
+// estado para guardar retorno de um api
+const [data, setData] = useState; 
 
+// estado não necessário, NAO FAZER ISSO!
+const [dataLength, setDataLength] = useState(data.length); 
+
+
+// Alternativa
+const dataLength = data.length; // Sempre terá a informação atualizada
 ```
 
 Tenho um vídeo explicando sobre derived state, confere lá:
