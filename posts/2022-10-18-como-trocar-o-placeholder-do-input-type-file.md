@@ -8,6 +8,8 @@ background: "#7b2cbf"
 ---
 ![revista de mockups aberta sobre a mesa](assets/images/pmv-chamara-qomic8mcr0y-unsplash.jpeg "Preview")
 
+<iframe width="560" height="315" src="https://youtu.be/b_o0Igv34sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introdução
 
 Se você já trabalha com desenvolvimento web a um certo tempo, com certeza, em algum momento, já precisou de criar ou utilizar um componente de upload `input type='file'`.
