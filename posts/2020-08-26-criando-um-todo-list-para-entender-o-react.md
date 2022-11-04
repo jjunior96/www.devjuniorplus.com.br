@@ -10,6 +10,8 @@ background: "#7b2cbf"
 
 # Introdução
 
+[Playlist de vídeo sobre React](https://www.youtube.com/playlist?list=PLzILwKck99iar3MQeGw3W_MoMlVBYhrCY)
+
 Existem vários conceitos que precisamos entender para dominar essa lib. Mas podemos dizer que existem três que são os **mais importantes**. 
 
 Esses conceitos estão presentes em praticamente todas aplicações construídas com React, podemos até ir além e dizer que são a **base do React**. <br />
