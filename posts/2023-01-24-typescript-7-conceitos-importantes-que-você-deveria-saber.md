@@ -153,6 +153,17 @@ double(2) // 4
 double(''); // Error
 ```
 
+
+> Livros que em ensinaram muito sobre TypeScript:
+> Aprendendo TypeScript:
+> https://amzn.to/3Wzqw3q
+> Guia prático de TypeScript
+> https://amzn.to/3HpwvDE
+> 
+> 
+
+
+
 ## Conclusão
 
 O Typescript nos provê inúmeras features para criar códigos mais consistentes.
@@ -160,3 +171,6 @@ Nesse post, vimos algumas delas.
 Um código bem escrito, com as tipagens corretas, é uma documentação viva!
 Deixa nos comentários, qual feature você mais curte do Typescript!
 Valeu galera, grande abraço e até a próxima.
+
+<hr>
+*Links de afiiliados, ajudam a manter o blog.
