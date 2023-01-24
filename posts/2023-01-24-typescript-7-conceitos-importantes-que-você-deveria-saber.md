@@ -155,10 +155,10 @@ double(''); // Error
 
 
 > Livros que em ensinaram muito sobre TypeScript:
-> Aprendendo TypeScript:
-> https://amzn.to/3Wzqw3q
-> Guia prático de TypeScript
-> https://amzn.to/3HpwvDE
+> - Aprendendo TypeScript:
+> 	https://amzn.to/3Wzqw3q
+> - Guia prático de TypeScript
+> 	https://amzn.to/3HpwvDE
 > 
 > 
 
