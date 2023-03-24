@@ -87,13 +87,31 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: process.env.TRACKING_ID,
-        head: true,
-        anonymize: true,
+        trackingIds: [
+          process.env.GA_MEASUREMENT_ID, // GA Measurement
+        ],
+        gtagConfig: {
+          optimize_id: 'OPT_CONTAINER_ID',
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
       },
     },
+
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: process.env.TRACKING_ID,
+    //     head: true,
+    //     anonymize: true,
+    //   },
+    // },
 
     // XML, para rodar, gatsby build && gatsby-server
     `gatsby-plugin-sitemap`,
